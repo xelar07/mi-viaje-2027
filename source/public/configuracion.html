@@ -1,0 +1,162 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Conectar Google Drive · Nuestro viaje</title><style>body{margin:auto;max-width:900px;padding:28px 20px;background:#fbf9f6;color:#302d2b;font:16px/1.65 Arial}h1,h2{font-family:Georgia}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:16px/1.65 Arial}section{background:white;border:1px solid #e9e4de;border-radius:18px;padding:24px;margin:24px 0}label{display:block;margin:16px 0}input{display:block;width:100%;box-sizing:border-box;padding:12px;border:1px solid #aaa;border-radius:8px;font:inherit}button{background:#c95044;border:0;border-radius:10px;color:white;padding:12px 18px;font:inherit;cursor:pointer}a{color:#a9362e}</style></head><body><a href="./">Volver al viaje</a><h1>Conectar con Google Drive</h1><section><h2>Generar la configuración</h2><p>Estos valores se obtienen en tu proyecto Google. No introduzcas contraseñas ni Client Secret.</p><form id="config"><label>Client ID<input name="clientId" required placeholder="…apps.googleusercontent.com"></label><label>Clave de API restringida para Picker<input name="apiKey" required></label><label>Número del proyecto<input name="projectNumber" required inputmode="numeric" pattern="[0-9]+"></label><button>Descargar google-config.json</button></form><p>Sube el archivo descargado a docs/google-config.json en GitHub.</p></section><script>document.getElementById('config').addEventListener('submit',e=>{e.preventDefault();const d=new FormData(e.target);const c={clientId:String(d.get('clientId')).trim(),apiKey:String(d.get('apiKey')).trim(),projectNumber:String(d.get('projectNumber')).trim(),fileId:''};if(!c.clientId.endsWith('.apps.googleusercontent.com')){alert('Revisa el Client ID');return}const u=URL.createObjectURL(new Blob([JSON.stringify(c,null,2)],{type:'application/json'}));const a=document.createElement('a');a.href=u;a.download='google-config.json';a.click();setTimeout(()=>URL.revokeObjectURL(u),2000)});</script><pre># Activar Google Drive · Nuestro viaje
+
+Este paquete conserva el diseño y las 22 secciones. La web se publica en GitHub Pages y el viaje compartido se guarda en un archivo JSON privado en Google Drive. No utiliza ChatGPT Sites ni Supabase.
+
+**Estado:** código preparado, compilación y pruebas con respuestas simuladas correctas. La conexión real requiere crear tu proyecto Google, completar la configuración y autorizar tu cuenta. Todavía no está conectada a tu Drive.
+
+## 1. Publica la web en GitHub Pages
+
+Descomprime el ZIP. Sube la carpeta **docs** completa al repositorio. En **Settings → Pages**, selecciona **Deploy from a branch → main → /docs → Save**. Puedes subir también **source** para conservar el código.
+
+Copia la URL que muestra GitHub. Ejemplo: `https://TU_USUARIO.github.io/mi-viaje-2027/`.
+
+El repositorio y los archivos publicados son públicos. El paquete contiene el itinerario inicial en su código; los nuevos datos del archivo privado de Drive no se publican automáticamente en GitHub. No incorpores datos personales al código o a un JSON que subas al repositorio.
+
+## 2. Crea el proyecto de Google
+
+Entra a https://console.cloud.google.com/ con la cuenta que será dueña del viaje.
+
+1. Crea un proyecto, por ejemplo **Nuestro viaje 2027**.
+2. En el panel del proyecto, copia el **número del proyecto**, no el ID de texto.
+3. En **APIs y servicios → Biblioteca**, habilita **Google Drive API** y **Google Picker API**.
+4. En **Google Auth Platform**, completa la configuración de la aplicación: nombre, correo de soporte y contacto del desarrollador. Para cuentas personales, el público será **Externo**.
+5. En **Audience / Público**, añade las cinco cuentas de Google como **usuarios de prueba** mientras la aplicación esté en pruebas.
+6. En **Data Access / Acceso a datos**, utiliza solo `https://www.googleapis.com/auth/drive.file`. La app accede a archivos creados o elegidos mediante el selector; no necesita permiso para todo tu Drive.
+
+Si Google solicita URLs de inicio y privacidad, usa la URL real de tu GitHub Pages y `privacidad.html` dentro del sitio. Revisa el texto antes de publicar la aplicación para más personas. La configuración de organización o cuenta puede imponer condiciones adicionales.
+
+## 3. Crea el cliente OAuth
+
+En **Google Auth Platform → Clients / Clientes → Crear cliente**:
+
+- Tipo: **Aplicación web**.
+- Nombre: **Planificador GitHub Pages**.
+- En **Orígenes JavaScript autorizados**, agrega `https://TU_USUARIO.github.io`.
+- El origen no lleva `/mi-viaje-2027/` ni otra ruta.
+- Para desarrollo local puedes agregar `http://localhost:8000`.
+- Este flujo utiliza una ventana emergente; no necesita un URI de redirección del servidor.
+
+Copia el **Client ID**, que termina en `.apps.googleusercontent.com`. **No copies ni publiques el Client Secret**: esta web no lo usa.
+
+## 4. Crea una clave para el selector
+
+En **APIs y servicios → Credenciales → Crear credenciales → Clave de API**:
+
+- Restringe la clave a **Sitios web / referentes HTTP**.
+- Autoriza `https://TU_USUARIO.github.io/*`.
+- En restricciones de API, selecciona **Google Picker API**; también puedes incluir **Google Drive API**.
+- Para pruebas locales, añade `http://localhost:8000/*` si lo necesitas.
+
+Esta clave identifica la aplicación y es visible en el navegador; sus restricciones son necesarias. No es una contraseña ni una clave de cuenta de servicio. El acceso a archivos privados exige además la autorización de Google del usuario.
+
+## 5. Completa la configuración
+
+Abre la página **configuracion.html** de tu web. Tiene un formulario que genera el archivo **google-config.json** con estos tres valores:
+
+- Client ID.
+- Clave de API restringida.
+- Número del proyecto.
+
+Descarga el archivo y reemplaza **docs/google-config.json** en tu repositorio. Luego recarga la web. No hace falta volver a compilar.
+
+También puedes editarlo directamente en GitHub:
+
+```json
+{
+  &quot;clientId&quot;: &quot;TU_CLIENT_ID.apps.googleusercontent.com&quot;,
+  &quot;apiKey&quot;: &quot;TU_CLAVE_DE_PICKER_RESTRINGIDA&quot;,
+  &quot;projectNumber&quot;: &quot;123456789012&quot;,
+  &quot;fileId&quot;: &quot;&quot;
+}
+```
+
+Para conservar la configuración al recompilar, copia el mismo archivo en **source/public/google-config.json**. `fileId` puede quedarse vacío: cada usuario elige el archivo con el selector. La web recuerda solo ese identificador en el navegador; no guarda el token de acceso en almacenamiento persistente.
+
+## 6. El organizador crea y comparte el viaje
+
+1. En la web, pulsa **Conectar con Google** y autoriza el acceso solicitado.
+2. Pulsa **Crear el viaje en mi Drive**. Confirma una sola vez.
+3. Se crea **Nuestro viaje · Europa y Egipto 2027.json**, inicialmente privado.
+4. Pulsa **Ver archivo y compartir** para abrirlo en Drive.
+5. Desde **Compartir**, añade los correos de los otros cuatro con rol **Editor**. Mantén el acceso general en **Restringido**.
+
+Solo el organizador debe crear el archivo. Crear otro archivo genera un viaje diferente y no sincroniza con el primero.
+
+Si habías editado la web anterior, exporta el JSON allí. Tras crear o abrir el archivo de Drive, usa **Importar copia** en esta web. Importar reemplaza el viaje compartido y pide confirmación; conserva un respaldo antes.
+
+## 7. Los otros viajeros se conectan
+
+Cada uno abre la misma web en GitHub Pages:
+
+1. Pulsa **Conectar con Google** usando el correo con el que compartiste el archivo.
+2. Pulsa **Elegir viaje de Drive**.
+3. Selecciona el archivo compartido. Puede buscarlo por nombre en el selector.
+4. No pulsa Crear, porque el viaje ya existe.
+
+La selección mediante Google Picker es importante para autorizar ese archivo con el permiso limitado `drive.file`. Pegar únicamente un ID no sustituye esa autorización.
+
+Si tienes rol Lector, puedes consultar el viaje, pero los controles de edición permanecen desactivados.
+
+## 8. Guardado y conflictos
+
+- **Guardar cambios** envía la edición al archivo central de Drive.
+- **Actualizar desde Drive** carga los últimos datos guardados por los demás. Esta versión no actualiza el plan en tiempo real mientras tienes un formulario abierto.
+- La app comprueba la versión del archivo y utiliza escrituras condicionales. Si detecta cambios ajenos, bloquea la escritura y mantiene tu edición para exportarla. No mezcla automáticamente dos ediciones.
+- Para resolver un conflicto, exporta tu edición, actualiza desde Drive y vuelve a aplicar lo que corresponda. Importar toda una copia reemplaza el viaje completo: no es una operación de combinación.
+- No se guardan cambios sin conexión. Un error de conexión o permiso se muestra en pantalla; exporta una copia antes de cerrar si hay cambios pendientes.
+- Google puede pedirte reconectar cuando expire el acceso. El token existe solo en memoria y no se publica en GitHub.
+- Desconectar la web descarta su token local. Para revocar permanentemente la autorización, usa la página de conexiones de tu cuenta de Google.
+
+El archivo del viaje se limita a 1,5 MB; agrega fotos y documentos mediante enlaces. El JSON central no es una hoja de Google Sheets y no debe convertirse a otro formato ni editarse a mano sin un respaldo.
+
+## 9. Comprobación real antes de usarlo
+
+Después de configurar Google:
+
+1. Crea el viaje y cambia una nota. Recarga y verifica que se conserva.
+2. En otro dispositivo, conecta la misma cuenta o uno de los viajeros autorizados, elige el archivo y comprueba esa nota.
+3. Cambia la nota desde el segundo dispositivo. En el primero pulsa Actualizar y comprueba el cambio.
+4. Abre el plan en dos pestañas. Guarda desde una; intenta guardar una edición antigua desde la otra. Debe aparecer el aviso de conflicto, sin sobrescribir el primer cambio.
+5. Revisa el archivo en Drive y confirma que sigue compartido solo con los cinco correos.
+
+Las pruebas locales del paquete simulan respuestas de Google. No sustituyen esta comprobación con tu proyecto y tus permisos reales.
+
+## Problemas frecuentes
+
+- **Falta completar google-config.json:** guarda los tres valores correctos y vuelve a cargar.
+- **origin_mismatch:** el origen OAuth debe coincidir exactamente con el dominio de GitHub Pages, sin ruta. Cambios de configuración pueden tardar en propagarse.
+- **access_denied / aplicación en pruebas:** añade el correo a los usuarios de prueba y vuelve a conectar.
+- **Selector vacío o error 404:** usa la cuenta correcta, verifica que el archivo fue compartido y selecciónalo mediante Picker.
+- **Error 403:** verifica Editor, APIs habilitadas, clave restringida y permiso drive.file.
+- **Ventana emergente bloqueada:** abre la web directamente en Chrome o Safari y permite la ventana de Google; algunos navegadores dentro de otras apps no completan el flujo.
+- **Sesión vencida:** vuelve a conectar. No publiques tokens ni secretos para solucionarlo.
+- **No aparecen cambios ajenos:** pulsa Actualizar desde Drive. Confirma que todos eligieron el mismo archivo, no copias distintas.
+
+## Código y comprobaciones
+
+Con Node.js 22.13 o posterior:
+
+```bash
+cd source
+npm ci
+npm run dev
+```
+
+Para comprobar y compilar:
+
+```bash
+npx tsc --noEmit
+node tests/google-drive.cjs
+npm run build
+```
+
+La compilación genera **docs**. El archivo de configuración y las páginas de ayuda se copian desde **source/public**.
+
+## Referencias oficiales
+
+- Google Identity Services: https://developers.google.com/identity/oauth2/web/guides/use-token-model
+- Google Picker y credenciales: https://developers.google.com/workspace/drive/picker/guides/web-picker
+- Escritura de archivos en Drive: https://developers.google.com/workspace/drive/api/reference/rest/v2/files/update
+- Metadatos y versiones: https://developers.google.com/workspace/drive/api/reference/rest/v2/files
+- GitHub Pages: https://docs.github.com/es/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+</pre></body></html>

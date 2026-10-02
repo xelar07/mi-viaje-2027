@@ -1,0 +1,3833 @@
+{
+  "days": [
+    {
+      "date": "2027-02-08",
+      "city": "Lima / vuelo",
+      "main": "Salida nocturna desde Lima",
+      "night": "Vuelo",
+      "transport": "Vuelo Lima–Madrid nocturno",
+      "status": "Por reservar",
+      "note": "Plan indicado por ti",
+      "id": "0-81",
+      "blocks": [
+        {
+          "id": "b0-0",
+          "start": "06:00",
+          "end": "09:00",
+          "activity": "Preparar equipaje y revisar documentación",
+          "transport": "Vuelo Lima–Madrid nocturno",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Lima%20%2F%20vuelo",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b0-1",
+          "start": "09:00",
+          "end": "12:00",
+          "activity": "Tiempo libre / cerrar pendientes",
+          "transport": "Vuelo Lima–Madrid nocturno",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Lima%20%2F%20vuelo",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b0-2",
+          "start": "12:00",
+          "end": "14:00",
+          "activity": "Almuerzo en Lima",
+          "transport": "A pie / pausa",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Lima%20%2F%20vuelo",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b0-3",
+          "start": "14:00",
+          "end": "18:00",
+          "activity": "Traslado al aeropuerto según billete",
+          "transport": "Vuelo Lima–Madrid nocturno",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Lima%20%2F%20vuelo",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b0-4",
+          "start": "18:00",
+          "end": "21:00",
+          "activity": "Registro, controles y cena",
+          "transport": "A pie / pausa",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Lima%20%2F%20vuelo",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b0-5",
+          "start": "21:00",
+          "end": "24:00",
+          "activity": "Salida nocturna a Madrid",
+          "transport": "Vuelo Lima–Madrid nocturno",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Lima%20%2F%20vuelo",
+          "status": "Propuesto"
+        }
+      ]
+    },
+    {
+      "date": "2027-02-09",
+      "city": "Madrid",
+      "main": "Llegada nocturna y descanso",
+      "night": "Madrid",
+      "transport": "Llegada Madrid por la noche",
+      "status": "Por reservar",
+      "note": "Plan indicado por ti",
+      "id": "0-82",
+      "blocks": [
+        {
+          "id": "b1-0",
+          "start": "06:00",
+          "end": "09:00",
+          "activity": "Vuelo internacional",
+          "transport": "Llegada Madrid por la noche",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Madrid",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b1-1",
+          "start": "09:00",
+          "end": "12:00",
+          "activity": "Vuelo internacional",
+          "transport": "Llegada Madrid por la noche",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Madrid",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b1-2",
+          "start": "12:00",
+          "end": "14:00",
+          "activity": "Vuelo / comida a bordo",
+          "transport": "A pie / pausa",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Madrid",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b1-3",
+          "start": "14:00",
+          "end": "18:00",
+          "activity": "Vuelo / llegada según billete",
+          "transport": "Llegada Madrid por la noche",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Madrid",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b1-4",
+          "start": "18:00",
+          "end": "21:00",
+          "activity": "Llegada nocturna a Madrid",
+          "transport": "Llegada Madrid por la noche",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Madrid",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b1-5",
+          "start": "21:00",
+          "end": "24:00",
+          "activity": "Traslado al alojamiento y descanso",
+          "transport": "A pie / pausa",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Madrid",
+          "status": "Propuesto"
+        }
+      ]
+    },
+    {
+      "date": "2027-02-10",
+      "city": "Madrid → París",
+      "main": "Louvre y paseo por el Sena si alcanza el tiempo",
+      "night": "París",
+      "transport": "Avión a París por la mañana",
+      "status": "Por reservar",
+      "note": "Plan indicado por ti",
+      "id": "0-83",
+      "blocks": [
+        {
+          "id": "b2-0",
+          "start": "06:00",
+          "end": "09:00",
+          "activity": "Salida al aeropuerto / vuelo a París",
+          "transport": "Avión a París por la mañana",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Par%C3%ADs",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b2-1",
+          "start": "09:00",
+          "end": "12:00",
+          "activity": "Llegada, traslado y consigna",
+          "transport": "Avión a París por la mañana",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Par%C3%ADs",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b2-2",
+          "start": "12:00",
+          "end": "14:00",
+          "activity": "Almuerzo y registro si disponible",
+          "transport": "A pie / pausa",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Par%C3%ADs",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b2-3",
+          "start": "14:00",
+          "end": "18:00",
+          "activity": "Louvre si la llegada permite reservar",
+          "transport": "Avión a París por la mañana",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Par%C3%ADs",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b2-4",
+          "start": "18:00",
+          "end": "21:00",
+          "activity": "Paseo por el Sena y cena",
+          "transport": "A pie / pausa",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Par%C3%ADs",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b2-5",
+          "start": "21:00",
+          "end": "24:00",
+          "activity": "Descanso en París",
+          "transport": "A pie / pausa",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Par%C3%ADs",
+          "status": "Propuesto"
+        }
+      ]
+    },
+    {
+      "date": "2027-02-11",
+      "city": "París",
+      "main": "Disneyland, día completo",
+      "night": "París",
+      "transport": "Transporte urbano",
+      "status": "Por reservar",
+      "note": "Distribución propuesta",
+      "id": "0-84",
+      "blocks": [
+        {
+          "id": "b3-0",
+          "start": "06:00",
+          "end": "09:00",
+          "activity": "Desayuno y traslado a Disneyland",
+          "transport": "Transporte urbano",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Par%C3%ADs",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b3-1",
+          "start": "09:00",
+          "end": "12:00",
+          "activity": "Disneyland: bloque de mañana",
+          "transport": "Transporte urbano",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Par%C3%ADs",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b3-2",
+          "start": "12:00",
+          "end": "14:00",
+          "activity": "Almuerzo en el parque",
+          "transport": "A pie / pausa",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Par%C3%ADs",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b3-3",
+          "start": "14:00",
+          "end": "18:00",
+          "activity": "Disneyland: bloque de tarde",
+          "transport": "Transporte urbano",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Par%C3%ADs",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b3-4",
+          "start": "18:00",
+          "end": "21:00",
+          "activity": "Regreso y cena según cierre",
+          "transport": "A pie / pausa",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Par%C3%ADs",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b3-5",
+          "start": "21:00",
+          "end": "24:00",
+          "activity": "Descanso",
+          "transport": "A pie / pausa",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Par%C3%ADs",
+          "status": "Propuesto"
+        }
+      ]
+    },
+    {
+      "date": "2027-02-12",
+      "city": "París",
+      "main": "Versalles y Torre Eiffel (según energía)",
+      "night": "París",
+      "transport": "Transporte urbano",
+      "status": "Por reservar",
+      "note": "Distribución propuesta",
+      "id": "0-85",
+      "blocks": [
+        {
+          "id": "b4-0",
+          "start": "06:00",
+          "end": "09:00",
+          "activity": "Desayuno y traslado a Versalles",
+          "transport": "Transporte urbano",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Par%C3%ADs",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b4-1",
+          "start": "09:00",
+          "end": "12:00",
+          "activity": "Palacio de Versalles",
+          "transport": "Transporte urbano",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Par%C3%ADs",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b4-2",
+          "start": "12:00",
+          "end": "14:00",
+          "activity": "Almuerzo / jardines según clima",
+          "transport": "A pie / pausa",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Par%C3%ADs",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b4-3",
+          "start": "14:00",
+          "end": "18:00",
+          "activity": "Regreso a París y descanso",
+          "transport": "A pie / pausa",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Par%C3%ADs",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b4-4",
+          "start": "18:00",
+          "end": "21:00",
+          "activity": "Torre Eiffel / cena, según disponibilidad",
+          "transport": "A pie / pausa",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Par%C3%ADs",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b4-5",
+          "start": "21:00",
+          "end": "24:00",
+          "activity": "Descanso",
+          "transport": "A pie / pausa",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Par%C3%ADs",
+          "status": "Propuesto"
+        }
+      ]
+    },
+    {
+      "date": "2027-02-13",
+      "city": "París → Milán",
+      "main": "Notre Dame y perfume; bus 18:00",
+      "night": "Bus nocturno",
+      "transport": "Bus a Milán 18:00",
+      "status": "Por reservar",
+      "note": "Plan indicado por ti",
+      "id": "0-86",
+      "blocks": [
+        {
+          "id": "b5-0",
+          "start": "06:00",
+          "end": "09:00",
+          "activity": "Desayuno, salida y consigna",
+          "transport": "Bus a Milán 18:00",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Mil%C3%A1n",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b5-1",
+          "start": "09:00",
+          "end": "12:00",
+          "activity": "Notre Dame y paseo cercano",
+          "transport": "Bus a Milán 18:00",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Mil%C3%A1n",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b5-2",
+          "start": "12:00",
+          "end": "14:00",
+          "activity": "Almuerzo; perfume solo si encaja",
+          "transport": "A pie / pausa",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Mil%C3%A1n",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b5-3",
+          "start": "14:00",
+          "end": "18:00",
+          "activity": "Recoger equipaje y llegar a terminal",
+          "transport": "Bus a Milán 18:00",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Mil%C3%A1n",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b5-4",
+          "start": "18:00",
+          "end": "21:00",
+          "activity": "Bus París–Milán: salida 18:00",
+          "transport": "Bus a Milán 18:00",
+          "note": "Salida 18:00 indicada por ti",
+          "url": "https://www.google.com/maps/search/?api=1&query=Mil%C3%A1n",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b5-5",
+          "start": "21:00",
+          "end": "24:00",
+          "activity": "Bus nocturno hacia Milán",
+          "transport": "Bus a Milán 18:00",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Mil%C3%A1n",
+          "status": "Propuesto"
+        }
+      ]
+    },
+    {
+      "date": "2027-02-14",
+      "city": "Milán → Roma",
+      "main": "Llegada a Roma, paseo suave",
+      "night": "Roma",
+      "transport": "Tren temprano Milán–Roma",
+      "status": "Por reservar",
+      "note": "Distribución propuesta",
+      "id": "0-87",
+      "blocks": [
+        {
+          "id": "b6-0",
+          "start": "06:00",
+          "end": "09:00",
+          "activity": "Llegada del bus; tren a Roma según margen",
+          "transport": "Tren temprano Milán–Roma",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Roma",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b6-1",
+          "start": "09:00",
+          "end": "12:00",
+          "activity": "Tren a Roma / llegada según billete",
+          "transport": "Tren temprano Milán–Roma",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Roma",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b6-2",
+          "start": "12:00",
+          "end": "14:00",
+          "activity": "Almuerzo y consigna o registro",
+          "transport": "A pie / pausa",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Roma",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b6-3",
+          "start": "14:00",
+          "end": "18:00",
+          "activity": "Descanso y paseo por centro histórico",
+          "transport": "A pie / pausa",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Roma",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b6-4",
+          "start": "18:00",
+          "end": "21:00",
+          "activity": "Cena y Fontana di Trevi",
+          "transport": "A pie / pausa",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Roma",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b6-5",
+          "start": "21:00",
+          "end": "24:00",
+          "activity": "Descanso en Roma",
+          "transport": "A pie / pausa",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Roma",
+          "status": "Propuesto"
+        }
+      ]
+    },
+    {
+      "date": "2027-02-15",
+      "city": "Roma",
+      "main": "Coliseo, Foro y centro histórico",
+      "night": "Roma",
+      "transport": "Transporte urbano",
+      "status": "Por reservar",
+      "note": "Distribución propuesta",
+      "id": "0-88",
+      "blocks": [
+        {
+          "id": "b7-0",
+          "start": "06:00",
+          "end": "09:00",
+          "activity": "Desayuno y traslado",
+          "transport": "Transporte urbano",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Roma",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b7-1",
+          "start": "09:00",
+          "end": "12:00",
+          "activity": "Coliseo y Foro Romano",
+          "transport": "Transporte urbano",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Roma",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b7-2",
+          "start": "12:00",
+          "end": "14:00",
+          "activity": "Almuerzo y pausa",
+          "transport": "A pie / pausa",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Roma",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b7-3",
+          "start": "14:00",
+          "end": "18:00",
+          "activity": "Panteón, plazas y paseo",
+          "transport": "Transporte urbano",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Roma",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b7-4",
+          "start": "18:00",
+          "end": "21:00",
+          "activity": "Cena y paseo suave",
+          "transport": "A pie / pausa",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Roma",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b7-5",
+          "start": "21:00",
+          "end": "24:00",
+          "activity": "Descanso",
+          "transport": "A pie / pausa",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Roma",
+          "status": "Propuesto"
+        }
+      ]
+    },
+    {
+      "date": "2027-02-16",
+      "city": "Roma",
+      "main": "Vaticano y Trastevere",
+      "night": "Roma",
+      "transport": "Transporte urbano",
+      "status": "Por reservar",
+      "note": "Distribución propuesta",
+      "id": "0-89",
+      "blocks": [
+        {
+          "id": "b8-0",
+          "start": "06:00",
+          "end": "09:00",
+          "activity": "Desayuno y traslado al Vaticano",
+          "transport": "Transporte urbano",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Roma",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b8-1",
+          "start": "09:00",
+          "end": "12:00",
+          "activity": "Museos Vaticanos / visita reservada",
+          "transport": "Transporte urbano",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Roma",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b8-2",
+          "start": "12:00",
+          "end": "14:00",
+          "activity": "Almuerzo y pausa",
+          "transport": "A pie / pausa",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Roma",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b8-3",
+          "start": "14:00",
+          "end": "18:00",
+          "activity": "Basílica / entorno según colas",
+          "transport": "Transporte urbano",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Roma",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b8-4",
+          "start": "18:00",
+          "end": "21:00",
+          "activity": "Trastevere y cena",
+          "transport": "A pie / pausa",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Roma",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b8-5",
+          "start": "21:00",
+          "end": "24:00",
+          "activity": "Descanso",
+          "transport": "A pie / pausa",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Roma",
+          "status": "Propuesto"
+        }
+      ]
+    },
+    {
+      "date": "2027-02-17",
+      "city": "Roma → Pisa → Venecia",
+      "main": "Pisa unas horas y viaje a Venecia",
+      "night": "Venecia",
+      "transport": "Tren a Pisa y después Venecia",
+      "status": "Por reservar",
+      "note": "Distribución propuesta",
+      "id": "0-90",
+      "blocks": [
+        {
+          "id": "b9-0",
+          "start": "06:00",
+          "end": "09:00",
+          "activity": "Salida de Roma y tren a Pisa",
+          "transport": "Tren a Pisa y después Venecia",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Venecia",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b9-1",
+          "start": "09:00",
+          "end": "12:00",
+          "activity": "Pisa: consigna y Campo dei Miracoli",
+          "transport": "Tren a Pisa y después Venecia",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Venecia",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b9-2",
+          "start": "12:00",
+          "end": "14:00",
+          "activity": "Almuerzo y recoger equipaje",
+          "transport": "A pie / pausa",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Venecia",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b9-3",
+          "start": "14:00",
+          "end": "18:00",
+          "activity": "Trenes hacia Venecia según conexión",
+          "transport": "Tren a Pisa y después Venecia",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Venecia",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b9-4",
+          "start": "18:00",
+          "end": "21:00",
+          "activity": "Llegada a Venecia y registro",
+          "transport": "Tren a Pisa y después Venecia",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Venecia",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b9-5",
+          "start": "21:00",
+          "end": "24:00",
+          "activity": "Cena / descanso",
+          "transport": "A pie / pausa",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Venecia",
+          "status": "Propuesto"
+        }
+      ]
+    },
+    {
+      "date": "2027-02-18",
+      "city": "Venecia",
+      "main": "San Marcos, Rialto y canales",
+      "night": "Venecia",
+      "transport": "Transporte urbano / a pie",
+      "status": "Por reservar",
+      "note": "Distribución propuesta",
+      "id": "0-91",
+      "blocks": [
+        {
+          "id": "b10-0",
+          "start": "06:00",
+          "end": "09:00",
+          "activity": "Desayuno y paseo por canales",
+          "transport": "Transporte urbano / a pie",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Venecia",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b10-1",
+          "start": "09:00",
+          "end": "12:00",
+          "activity": "San Marcos y Palacio Ducal opcional",
+          "transport": "Transporte urbano / a pie",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Venecia",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b10-2",
+          "start": "12:00",
+          "end": "14:00",
+          "activity": "Almuerzo y descanso",
+          "transport": "A pie / pausa",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Venecia",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b10-3",
+          "start": "14:00",
+          "end": "18:00",
+          "activity": "Rialto y barrios cercanos",
+          "transport": "Transporte urbano / a pie",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Venecia",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b10-4",
+          "start": "18:00",
+          "end": "21:00",
+          "activity": "Cena y preparar traslado",
+          "transport": "A pie / pausa",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Venecia",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b10-5",
+          "start": "21:00",
+          "end": "24:00",
+          "activity": "Descanso en Venecia",
+          "transport": "A pie / pausa",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Venecia",
+          "status": "Propuesto"
+        }
+      ]
+    },
+    {
+      "date": "2027-02-19",
+      "city": "Venecia → Milán → Atenas",
+      "main": "Conexión vía Milán: horario por resolver",
+      "night": "Atenas",
+      "transport": "Tren a Milán + vuelo a Atenas",
+      "status": "Por reservar",
+      "note": "Distribución propuesta",
+      "id": "0-92",
+      "blocks": [
+        {
+          "id": "b11-0",
+          "start": "06:00",
+          "end": "09:00",
+          "activity": "Venecia–Milán: horario pendiente",
+          "transport": "Tren a Milán + vuelo a Atenas",
+          "note": "Horario y llegada por validar",
+          "url": "https://www.google.com/maps/search/?api=1&query=Atenas",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b11-1",
+          "start": "09:00",
+          "end": "12:00",
+          "activity": "Traslado al aeropuerto y vuelo: por validar",
+          "transport": "Tren a Milán + vuelo a Atenas",
+          "note": "Horario y llegada por validar",
+          "url": "https://www.google.com/maps/search/?api=1&query=Atenas",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b11-2",
+          "start": "12:00",
+          "end": "14:00",
+          "activity": "Conexión / llegada a Atenas según vuelo",
+          "transport": "A pie / pausa",
+          "note": "Horario y llegada por validar",
+          "url": "https://www.google.com/maps/search/?api=1&query=Atenas",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b11-3",
+          "start": "14:00",
+          "end": "18:00",
+          "activity": "Registro y descanso al llegar",
+          "transport": "A pie / pausa",
+          "note": "Horario y llegada por validar",
+          "url": "https://www.google.com/maps/search/?api=1&query=Atenas",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b11-4",
+          "start": "18:00",
+          "end": "21:00",
+          "activity": "Paseo por Plaka si alcanza el tiempo",
+          "transport": "Tren a Milán + vuelo a Atenas",
+          "note": "Horario y llegada por validar",
+          "url": "https://www.google.com/maps/search/?api=1&query=Atenas",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b11-5",
+          "start": "21:00",
+          "end": "24:00",
+          "activity": "Descanso en Atenas",
+          "transport": "A pie / pausa",
+          "note": "Horario y llegada por validar",
+          "url": "https://www.google.com/maps/search/?api=1&query=Atenas",
+          "status": "Propuesto"
+        }
+      ]
+    },
+    {
+      "date": "2027-02-20",
+      "city": "Atenas",
+      "main": "Acrópolis y Plaka",
+      "night": "Atenas",
+      "transport": "Transporte urbano",
+      "status": "Por reservar",
+      "note": "Distribución propuesta",
+      "id": "0-93",
+      "blocks": [
+        {
+          "id": "b12-0",
+          "start": "06:00",
+          "end": "09:00",
+          "activity": "Desayuno y preparación",
+          "transport": "Transporte urbano",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Atenas",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b12-1",
+          "start": "09:00",
+          "end": "12:00",
+          "activity": "Acrópolis: reserva por verificar",
+          "transport": "Transporte urbano",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Atenas",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b12-2",
+          "start": "12:00",
+          "end": "14:00",
+          "activity": "Almuerzo y pausa",
+          "transport": "A pie / pausa",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Atenas",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b12-3",
+          "start": "14:00",
+          "end": "18:00",
+          "activity": "Plaka y Anafiotika",
+          "transport": "Transporte urbano",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Atenas",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b12-4",
+          "start": "18:00",
+          "end": "21:00",
+          "activity": "Cena en el centro",
+          "transport": "A pie / pausa",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Atenas",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b12-5",
+          "start": "21:00",
+          "end": "24:00",
+          "activity": "Descanso",
+          "transport": "A pie / pausa",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Atenas",
+          "status": "Propuesto"
+        }
+      ]
+    },
+    {
+      "date": "2027-02-21",
+      "city": "Atenas",
+      "main": "Museo de la Acrópolis y barrios",
+      "night": "Atenas",
+      "transport": "Transporte urbano",
+      "status": "Por reservar",
+      "note": "Distribución propuesta",
+      "id": "0-94",
+      "blocks": [
+        {
+          "id": "b13-0",
+          "start": "06:00",
+          "end": "09:00",
+          "activity": "Desayuno",
+          "transport": "Transporte urbano",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Atenas",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b13-1",
+          "start": "09:00",
+          "end": "12:00",
+          "activity": "Museo de la Acrópolis",
+          "transport": "Transporte urbano",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Atenas",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b13-2",
+          "start": "12:00",
+          "end": "14:00",
+          "activity": "Almuerzo y pausa",
+          "transport": "A pie / pausa",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Atenas",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b13-3",
+          "start": "14:00",
+          "end": "18:00",
+          "activity": "Monastiraki y paseo libre",
+          "transport": "Transporte urbano",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Atenas",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b13-4",
+          "start": "18:00",
+          "end": "21:00",
+          "activity": "Cena y preparar equipaje",
+          "transport": "A pie / pausa",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Atenas",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b13-5",
+          "start": "21:00",
+          "end": "24:00",
+          "activity": "Descanso",
+          "transport": "A pie / pausa",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Atenas",
+          "status": "Propuesto"
+        }
+      ]
+    },
+    {
+      "date": "2027-02-22",
+      "city": "Atenas → El Cairo",
+      "main": "Vuelo a El Cairo y descanso",
+      "night": "El Cairo",
+      "transport": "Vuelo Atenas–El Cairo propuesto",
+      "status": "Por reservar",
+      "note": "Distribución propuesta",
+      "id": "0-95",
+      "blocks": [
+        {
+          "id": "b14-0",
+          "start": "06:00",
+          "end": "09:00",
+          "activity": "Registro y traslado según vuelo",
+          "transport": "Vuelo Atenas–El Cairo propuesto",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=El%20Cairo",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b14-1",
+          "start": "09:00",
+          "end": "12:00",
+          "activity": "Vuelo Atenas–El Cairo propuesto",
+          "transport": "Vuelo Atenas–El Cairo propuesto",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=El%20Cairo",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b14-2",
+          "start": "12:00",
+          "end": "14:00",
+          "activity": "Vuelo / almuerzo según llegada",
+          "transport": "A pie / pausa",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=El%20Cairo",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b14-3",
+          "start": "14:00",
+          "end": "18:00",
+          "activity": "Traslado, registro y descanso",
+          "transport": "A pie / pausa",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=El%20Cairo",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b14-4",
+          "start": "18:00",
+          "end": "21:00",
+          "activity": "Cena y orientación cercana",
+          "transport": "A pie / pausa",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=El%20Cairo",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b14-5",
+          "start": "21:00",
+          "end": "24:00",
+          "activity": "Descanso en El Cairo",
+          "transport": "A pie / pausa",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=El%20Cairo",
+          "status": "Propuesto"
+        }
+      ]
+    },
+    {
+      "date": "2027-02-23",
+      "city": "El Cairo",
+      "main": "Museo y centro de El Cairo",
+      "night": "El Cairo",
+      "transport": "Transporte urbano",
+      "status": "Por reservar",
+      "note": "Distribución propuesta",
+      "id": "0-96",
+      "blocks": [
+        {
+          "id": "b15-0",
+          "start": "06:00",
+          "end": "09:00",
+          "activity": "Desayuno",
+          "transport": "Transporte urbano",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=El%20Cairo",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b15-1",
+          "start": "09:00",
+          "end": "12:00",
+          "activity": "Museo elegido según intereses y ubicación",
+          "transport": "Transporte urbano",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=El%20Cairo",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b15-2",
+          "start": "12:00",
+          "end": "14:00",
+          "activity": "Almuerzo y descanso",
+          "transport": "A pie / pausa",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=El%20Cairo",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b15-3",
+          "start": "14:00",
+          "end": "18:00",
+          "activity": "Centro de El Cairo / paseo",
+          "transport": "Transporte urbano",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=El%20Cairo",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b15-4",
+          "start": "18:00",
+          "end": "21:00",
+          "activity": "Cena",
+          "transport": "A pie / pausa",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=El%20Cairo",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b15-5",
+          "start": "21:00",
+          "end": "24:00",
+          "activity": "Descanso",
+          "transport": "A pie / pausa",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=El%20Cairo",
+          "status": "Propuesto"
+        }
+      ]
+    },
+    {
+      "date": "2027-02-24",
+      "city": "El Cairo",
+      "main": "Guiza y pirámides",
+      "night": "El Cairo",
+      "transport": "Traslado a Guiza",
+      "status": "Por reservar",
+      "note": "Distribución propuesta",
+      "id": "0-97",
+      "blocks": [
+        {
+          "id": "b16-0",
+          "start": "06:00",
+          "end": "09:00",
+          "activity": "Desayuno y traslado a Guiza",
+          "transport": "Traslado a Guiza",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=El%20Cairo",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b16-1",
+          "start": "09:00",
+          "end": "12:00",
+          "activity": "Pirámides y Esfinge",
+          "transport": "Traslado a Guiza",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=El%20Cairo",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b16-2",
+          "start": "12:00",
+          "end": "14:00",
+          "activity": "Almuerzo y pausa",
+          "transport": "A pie / pausa",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=El%20Cairo",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b16-3",
+          "start": "14:00",
+          "end": "18:00",
+          "activity": "Visita adicional opcional o regreso",
+          "transport": "Traslado a Guiza",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=El%20Cairo",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b16-4",
+          "start": "18:00",
+          "end": "21:00",
+          "activity": "Cena y descanso",
+          "transport": "A pie / pausa",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=El%20Cairo",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b16-5",
+          "start": "21:00",
+          "end": "24:00",
+          "activity": "Descanso",
+          "transport": "A pie / pausa",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=El%20Cairo",
+          "status": "Propuesto"
+        }
+      ]
+    },
+    {
+      "date": "2027-02-25",
+      "city": "El Cairo",
+      "main": "Ciudadela y El Cairo histórico",
+      "night": "El Cairo",
+      "transport": "Transporte urbano",
+      "status": "Por reservar",
+      "note": "Distribución propuesta",
+      "id": "0-98",
+      "blocks": [
+        {
+          "id": "b17-0",
+          "start": "06:00",
+          "end": "09:00",
+          "activity": "Desayuno",
+          "transport": "Transporte urbano",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=El%20Cairo",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b17-1",
+          "start": "09:00",
+          "end": "12:00",
+          "activity": "Ciudadela / visita cultural propuesta",
+          "transport": "Transporte urbano",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=El%20Cairo",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b17-2",
+          "start": "12:00",
+          "end": "14:00",
+          "activity": "Almuerzo y pausa",
+          "transport": "A pie / pausa",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=El%20Cairo",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b17-3",
+          "start": "14:00",
+          "end": "18:00",
+          "activity": "El Cairo histórico / bazar",
+          "transport": "Transporte urbano",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=El%20Cairo",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b17-4",
+          "start": "18:00",
+          "end": "21:00",
+          "activity": "Cena",
+          "transport": "A pie / pausa",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=El%20Cairo",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b17-5",
+          "start": "21:00",
+          "end": "24:00",
+          "activity": "Descanso",
+          "transport": "A pie / pausa",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=El%20Cairo",
+          "status": "Propuesto"
+        }
+      ]
+    },
+    {
+      "date": "2027-02-26",
+      "city": "El Cairo → Madrid",
+      "main": "Día de margen y vuelo a Madrid",
+      "night": "Vuelo / según horario",
+      "transport": "Vuelo a Madrid según disponibilidad",
+      "status": "Por reservar",
+      "note": "Distribución propuesta",
+      "id": "0-99",
+      "blocks": [
+        {
+          "id": "b18-0",
+          "start": "06:00",
+          "end": "09:00",
+          "activity": "Desayuno y revisar vuelo",
+          "transport": "Vuelo a Madrid según disponibilidad",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Madrid",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b18-1",
+          "start": "09:00",
+          "end": "12:00",
+          "activity": "Actividad libre breve / consigna",
+          "transport": "Vuelo a Madrid según disponibilidad",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Madrid",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b18-2",
+          "start": "12:00",
+          "end": "14:00",
+          "activity": "Almuerzo",
+          "transport": "A pie / pausa",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Madrid",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b18-3",
+          "start": "14:00",
+          "end": "18:00",
+          "activity": "Margen para traslado y aeropuerto",
+          "transport": "Vuelo a Madrid según disponibilidad",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Madrid",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b18-4",
+          "start": "18:00",
+          "end": "21:00",
+          "activity": "Vuelo a Madrid según billete",
+          "transport": "Vuelo a Madrid según disponibilidad",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Madrid",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b18-5",
+          "start": "21:00",
+          "end": "24:00",
+          "activity": "Vuelo / conexión según horario",
+          "transport": "Vuelo a Madrid según disponibilidad",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Madrid",
+          "status": "Propuesto"
+        }
+      ]
+    },
+    {
+      "date": "2027-02-27",
+      "city": "Madrid",
+      "main": "Madrid: llegada temprana y paseo",
+      "night": "Madrid",
+      "transport": "Llegada a Madrid temprano",
+      "status": "Por reservar",
+      "note": "Distribución propuesta",
+      "id": "0-100",
+      "blocks": [
+        {
+          "id": "b19-0",
+          "start": "06:00",
+          "end": "09:00",
+          "activity": "Llegada temprana a Madrid: objetivo",
+          "transport": "Llegada a Madrid temprano",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Madrid",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b19-1",
+          "start": "09:00",
+          "end": "12:00",
+          "activity": "Consigna / registro según hotel",
+          "transport": "Llegada a Madrid temprano",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Madrid",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b19-2",
+          "start": "12:00",
+          "end": "14:00",
+          "activity": "Almuerzo y descanso",
+          "transport": "A pie / pausa",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Madrid",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b19-3",
+          "start": "14:00",
+          "end": "18:00",
+          "activity": "Paseo céntrico",
+          "transport": "Llegada a Madrid temprano",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Madrid",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b19-4",
+          "start": "18:00",
+          "end": "21:00",
+          "activity": "Cena",
+          "transport": "A pie / pausa",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Madrid",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b19-5",
+          "start": "21:00",
+          "end": "24:00",
+          "activity": "Descanso en Madrid",
+          "transport": "A pie / pausa",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Madrid",
+          "status": "Propuesto"
+        }
+      ]
+    },
+    {
+      "date": "2027-02-28",
+      "city": "Madrid",
+      "main": "Madrid: último día; aeropuerto de noche",
+      "night": "Madrid",
+      "transport": "Transporte urbano",
+      "status": "Por reservar",
+      "note": "Distribución propuesta",
+      "id": "0-101",
+      "blocks": [
+        {
+          "id": "b20-0",
+          "start": "06:00",
+          "end": "09:00",
+          "activity": "Desayuno y preparar equipaje",
+          "transport": "Transporte urbano",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Madrid",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b20-1",
+          "start": "09:00",
+          "end": "12:00",
+          "activity": "Madrid: paseo / compras",
+          "transport": "Transporte urbano",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Madrid",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b20-2",
+          "start": "12:00",
+          "end": "14:00",
+          "activity": "Almuerzo y descanso",
+          "transport": "A pie / pausa",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Madrid",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b20-3",
+          "start": "14:00",
+          "end": "18:00",
+          "activity": "Tiempo libre y recoger equipaje",
+          "transport": "Transporte urbano",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Madrid",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b20-4",
+          "start": "18:00",
+          "end": "21:00",
+          "activity": "Cena y preparar salida nocturna",
+          "transport": "A pie / pausa",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Madrid",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b20-5",
+          "start": "21:00",
+          "end": "24:00",
+          "activity": "Traslado al aeropuerto según billete",
+          "transport": "Transporte urbano",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Madrid",
+          "status": "Propuesto"
+        }
+      ]
+    },
+    {
+      "date": "2027-03-01",
+      "city": "Madrid → Lima",
+      "main": "Salida 05:00, regreso a Lima",
+      "night": "Vuelo",
+      "transport": "Vuelo Madrid–Lima 05:00",
+      "status": "Por reservar",
+      "note": "Plan indicado por ti",
+      "id": "0-102",
+      "blocks": [
+        {
+          "id": "b21-0",
+          "start": "00:00",
+          "end": "06:00",
+          "activity": "Controles y embarque; vuelo Madrid–Lima 05:00",
+          "transport": "Vuelo Madrid–Lima 05:00",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Lima",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b21-1",
+          "start": "09:00",
+          "end": "12:00",
+          "activity": "Vuelo internacional",
+          "transport": "Vuelo Madrid–Lima 05:00",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Lima",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b21-2",
+          "start": "12:00",
+          "end": "14:00",
+          "activity": "Vuelo / llegada según billete",
+          "transport": "A pie / pausa",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Lima",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b21-3",
+          "start": "14:00",
+          "end": "18:00",
+          "activity": "Llegada y traslado a casa según billete",
+          "transport": "Vuelo Madrid–Lima 05:00",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Lima",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b21-4",
+          "start": "18:00",
+          "end": "21:00",
+          "activity": "Descanso",
+          "transport": "A pie / pausa",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Lima",
+          "status": "Propuesto"
+        },
+        {
+          "id": "b21-5",
+          "start": "21:00",
+          "end": "24:00",
+          "activity": "Descanso",
+          "transport": "A pie / pausa",
+          "note": "Bloque orientativo en hora local",
+          "url": "https://www.google.com/maps/search/?api=1&query=Lima",
+          "status": "Propuesto"
+        }
+      ]
+    }
+  ],
+  "travelers": [
+    {
+      "code": "V1",
+      "name": "Viajero 1",
+      "nationality": "",
+      "passport": "",
+      "expires": "",
+      "phone": "",
+      "email": "",
+      "emergency": "",
+      "requirements": "Por verificar según pasaporte",
+      "status": "Pendiente",
+      "policy": "",
+      "note": "",
+      "id": "1-20"
+    },
+    {
+      "code": "V2",
+      "name": "Viajero 2",
+      "nationality": "",
+      "passport": "",
+      "expires": "",
+      "phone": "",
+      "email": "",
+      "emergency": "",
+      "requirements": "Por verificar según pasaporte",
+      "status": "Pendiente",
+      "policy": "",
+      "note": "",
+      "id": "1-21"
+    },
+    {
+      "code": "V3",
+      "name": "Viajero 3",
+      "nationality": "",
+      "passport": "",
+      "expires": "",
+      "phone": "",
+      "email": "",
+      "emergency": "",
+      "requirements": "Por verificar según pasaporte",
+      "status": "Pendiente",
+      "policy": "",
+      "note": "",
+      "id": "1-22"
+    },
+    {
+      "code": "V4",
+      "name": "Viajero 4",
+      "nationality": "",
+      "passport": "",
+      "expires": "",
+      "phone": "",
+      "email": "",
+      "emergency": "",
+      "requirements": "Por verificar según pasaporte",
+      "status": "Pendiente",
+      "policy": "",
+      "note": "",
+      "id": "1-23"
+    },
+    {
+      "code": "V5",
+      "name": "Viajero 5",
+      "nationality": "",
+      "passport": "",
+      "expires": "",
+      "phone": "",
+      "email": "",
+      "emergency": "",
+      "requirements": "Por verificar según pasaporte",
+      "status": "Pendiente",
+      "policy": "",
+      "note": "",
+      "id": "1-24"
+    }
+  ],
+  "bookings": [
+    {
+      "code": "R01",
+      "kind": "Vuelo",
+      "date": "2027-02-08",
+      "name": "Lima–Madrid",
+      "provider": "",
+      "confirmation": "",
+      "url": "",
+      "deadline": "",
+      "people": "V1–V5",
+      "status": "Por reservar",
+      "amount": "",
+      "currency": "",
+      "id": "1-30"
+    },
+    {
+      "code": "R02",
+      "kind": "Hotel",
+      "date": "2027-02-09",
+      "name": "Madrid",
+      "provider": "",
+      "confirmation": "",
+      "url": "",
+      "deadline": "",
+      "people": "V1–V5",
+      "status": "Por reservar",
+      "amount": "",
+      "currency": "",
+      "id": "1-31"
+    },
+    {
+      "code": "R03",
+      "kind": "Vuelo",
+      "date": "2027-02-10",
+      "name": "Madrid–París",
+      "provider": "",
+      "confirmation": "",
+      "url": "",
+      "deadline": "",
+      "people": "V1–V5",
+      "status": "Por reservar",
+      "amount": "",
+      "currency": "",
+      "id": "1-32"
+    },
+    {
+      "code": "R04",
+      "kind": "Hotel",
+      "date": "2027-02-10",
+      "name": "París",
+      "provider": "",
+      "confirmation": "",
+      "url": "",
+      "deadline": "",
+      "people": "V1–V5",
+      "status": "Por reservar",
+      "amount": "",
+      "currency": "",
+      "id": "1-33"
+    },
+    {
+      "code": "R05",
+      "kind": "Actividad",
+      "date": "2027-02-11",
+      "name": "Disneyland",
+      "provider": "",
+      "confirmation": "",
+      "url": "",
+      "deadline": "",
+      "people": "V1–V5",
+      "status": "Por reservar",
+      "amount": "",
+      "currency": "",
+      "id": "1-34"
+    },
+    {
+      "code": "R06",
+      "kind": "Actividad",
+      "date": "2027-02-12",
+      "name": "Versalles",
+      "provider": "",
+      "confirmation": "",
+      "url": "",
+      "deadline": "",
+      "people": "V1–V5",
+      "status": "Por reservar",
+      "amount": "",
+      "currency": "",
+      "id": "1-35"
+    },
+    {
+      "code": "R07",
+      "kind": "Bus",
+      "date": "2027-02-13",
+      "name": "París–Milán 18:00",
+      "provider": "",
+      "confirmation": "",
+      "url": "",
+      "deadline": "",
+      "people": "V1–V5",
+      "status": "Por reservar",
+      "amount": "",
+      "currency": "",
+      "id": "1-36"
+    },
+    {
+      "code": "R08",
+      "kind": "Tren",
+      "date": "2027-02-14",
+      "name": "Milán–Roma",
+      "provider": "",
+      "confirmation": "",
+      "url": "",
+      "deadline": "",
+      "people": "V1–V5",
+      "status": "Por reservar",
+      "amount": "",
+      "currency": "",
+      "id": "1-37"
+    },
+    {
+      "code": "R09",
+      "kind": "Hotel",
+      "date": "2027-02-14",
+      "name": "Roma",
+      "provider": "",
+      "confirmation": "",
+      "url": "",
+      "deadline": "",
+      "people": "V1–V5",
+      "status": "Por reservar",
+      "amount": "",
+      "currency": "",
+      "id": "1-38"
+    },
+    {
+      "code": "R10",
+      "kind": "Tren",
+      "date": "2027-02-17",
+      "name": "Roma–Pisa–Venecia",
+      "provider": "",
+      "confirmation": "",
+      "url": "",
+      "deadline": "",
+      "people": "V1–V5",
+      "status": "Por reservar",
+      "amount": "",
+      "currency": "",
+      "id": "1-39"
+    },
+    {
+      "code": "R11",
+      "kind": "Hotel",
+      "date": "2027-02-17",
+      "name": "Venecia",
+      "provider": "",
+      "confirmation": "",
+      "url": "",
+      "deadline": "",
+      "people": "V1–V5",
+      "status": "Por reservar",
+      "amount": "",
+      "currency": "",
+      "id": "1-40"
+    },
+    {
+      "code": "R12",
+      "kind": "Tren",
+      "date": "2027-02-19",
+      "name": "Venecia–Milán",
+      "provider": "",
+      "confirmation": "",
+      "url": "",
+      "deadline": "",
+      "people": "V1–V5",
+      "status": "Por reservar",
+      "amount": "",
+      "currency": "",
+      "id": "1-41"
+    },
+    {
+      "code": "R13",
+      "kind": "Vuelo",
+      "date": "2027-02-19",
+      "name": "Milán–Atenas",
+      "provider": "",
+      "confirmation": "",
+      "url": "",
+      "deadline": "",
+      "people": "V1–V5",
+      "status": "Por reservar",
+      "amount": "",
+      "currency": "",
+      "id": "1-42"
+    },
+    {
+      "code": "R14",
+      "kind": "Hotel",
+      "date": "2027-02-19",
+      "name": "Atenas",
+      "provider": "",
+      "confirmation": "",
+      "url": "",
+      "deadline": "",
+      "people": "V1–V5",
+      "status": "Por reservar",
+      "amount": "",
+      "currency": "",
+      "id": "1-43"
+    },
+    {
+      "code": "R15",
+      "kind": "Vuelo",
+      "date": "2027-02-22",
+      "name": "Atenas–El Cairo",
+      "provider": "",
+      "confirmation": "",
+      "url": "",
+      "deadline": "",
+      "people": "V1–V5",
+      "status": "Por reservar",
+      "amount": "",
+      "currency": "",
+      "id": "1-44"
+    },
+    {
+      "code": "R16",
+      "kind": "Hotel",
+      "date": "2027-02-22",
+      "name": "El Cairo",
+      "provider": "",
+      "confirmation": "",
+      "url": "",
+      "deadline": "",
+      "people": "V1–V5",
+      "status": "Por reservar",
+      "amount": "",
+      "currency": "",
+      "id": "1-45"
+    },
+    {
+      "code": "R17",
+      "kind": "Vuelo",
+      "date": "2027-02-26",
+      "name": "El Cairo–Madrid; fecha propuesta",
+      "provider": "",
+      "confirmation": "",
+      "url": "",
+      "deadline": "",
+      "people": "V1–V5",
+      "status": "Por reservar",
+      "amount": "",
+      "currency": "",
+      "id": "1-46"
+    },
+    {
+      "code": "R18",
+      "kind": "Hotel",
+      "date": "2027-02-27",
+      "name": "Madrid",
+      "provider": "",
+      "confirmation": "",
+      "url": "",
+      "deadline": "",
+      "people": "V1–V5",
+      "status": "Por reservar",
+      "amount": "",
+      "currency": "",
+      "id": "1-47"
+    },
+    {
+      "code": "R19",
+      "kind": "Vuelo",
+      "date": "2027-03-01",
+      "name": "Madrid–Lima 05:00",
+      "provider": "",
+      "confirmation": "",
+      "url": "",
+      "deadline": "",
+      "people": "V1–V5",
+      "status": "Por reservar",
+      "amount": "",
+      "currency": "",
+      "id": "1-48"
+    }
+  ],
+  "insurance": [
+    {
+      "code": "S01",
+      "provider": "",
+      "people": "V1–V5",
+      "period": "08/02–01/03/2027",
+      "amount": "",
+      "currency": "EUR",
+      "coverage": "",
+      "deductible": "",
+      "exclusions": "",
+      "phone": "",
+      "url": "",
+      "status": "Pendiente",
+      "id": "1-74"
+    },
+    {
+      "code": "S02",
+      "provider": "",
+      "people": "V1–V5",
+      "period": "08/02–01/03/2027",
+      "amount": "",
+      "currency": "EUR",
+      "coverage": "",
+      "deductible": "",
+      "exclusions": "",
+      "phone": "",
+      "url": "",
+      "status": "Pendiente",
+      "id": "1-75"
+    },
+    {
+      "code": "S03",
+      "provider": "",
+      "people": "V1–V5",
+      "period": "08/02–01/03/2027",
+      "amount": "",
+      "currency": "EUR",
+      "coverage": "",
+      "deductible": "",
+      "exclusions": "",
+      "phone": "",
+      "url": "",
+      "status": "Pendiente",
+      "id": "1-76"
+    }
+  ],
+  "transport": [
+    {
+      "name": "Lima–Madrid",
+      "kind": "Avión",
+      "date": "2027-02-08",
+      "origin": "Aeropuerto Lima",
+      "destination": "Aeropuerto Madrid",
+      "note": "Vuelo nocturno indicado",
+      "amount": "",
+      "baggage": "",
+      "transfers": "",
+      "currency": "EUR",
+      "status": "En evaluación",
+      "id": "2-12"
+    },
+    {
+      "name": "Madrid–París",
+      "kind": "Avión",
+      "date": "2027-02-10",
+      "origin": "Aeropuerto Madrid",
+      "destination": "Aeropuerto París por definir",
+      "note": "Salida matinal indicada",
+      "amount": "",
+      "baggage": "",
+      "transfers": "",
+      "currency": "EUR",
+      "status": "En evaluación",
+      "id": "2-13"
+    },
+    {
+      "name": "París–Milán",
+      "kind": "Bus",
+      "date": "2027-02-13",
+      "origin": "Terminal París por definir",
+      "destination": "Terminal Milán por definir",
+      "note": "Salida 18:00 indicada",
+      "amount": "",
+      "baggage": "",
+      "transfers": "",
+      "currency": "EUR",
+      "status": "En evaluación",
+      "id": "2-14"
+    },
+    {
+      "name": "Milán–Roma",
+      "kind": "Tren",
+      "date": "2027-02-14",
+      "origin": "Milano Centrale por verificar",
+      "destination": "Roma Termini por verificar",
+      "note": "Margen desde llegada del bus",
+      "amount": "",
+      "baggage": "",
+      "transfers": "",
+      "currency": "EUR",
+      "status": "En evaluación",
+      "id": "2-15"
+    },
+    {
+      "name": "Roma–Pisa–Venecia",
+      "kind": "Tren",
+      "date": "2027-02-17",
+      "origin": "Roma",
+      "destination": "Venecia",
+      "note": "Consigna en Pisa y conexiones",
+      "amount": "",
+      "baggage": "",
+      "transfers": "",
+      "currency": "EUR",
+      "status": "En evaluación",
+      "id": "2-16"
+    },
+    {
+      "name": "Venecia–Milán–Atenas",
+      "kind": "Tren + avión",
+      "date": "2027-02-19",
+      "origin": "Venecia",
+      "destination": "Atenas",
+      "note": "Llegada matinal no validada",
+      "amount": "",
+      "baggage": "",
+      "transfers": "",
+      "currency": "EUR",
+      "status": "En evaluación",
+      "id": "2-17"
+    },
+    {
+      "name": "Venecia–Atenas",
+      "kind": "Avión",
+      "date": "2027-02-19",
+      "origin": "Aeropuerto Venecia",
+      "destination": "Atenas",
+      "note": "Alternativa a evaluar",
+      "amount": "",
+      "baggage": "",
+      "transfers": "",
+      "currency": "EUR",
+      "status": "En evaluación",
+      "id": "2-18"
+    },
+    {
+      "name": "Atenas–El Cairo",
+      "kind": "Avión",
+      "date": "2027-02-22",
+      "origin": "Atenas",
+      "destination": "El Cairo",
+      "note": "Fecha propuesta",
+      "amount": "",
+      "baggage": "",
+      "transfers": "",
+      "currency": "EUR",
+      "status": "En evaluación",
+      "id": "2-19"
+    },
+    {
+      "name": "El Cairo–Madrid",
+      "kind": "Avión",
+      "date": "2027-02-26",
+      "origin": "El Cairo",
+      "destination": "Madrid",
+      "note": "Llegar temprano el 27",
+      "amount": "",
+      "baggage": "",
+      "transfers": "",
+      "currency": "EUR",
+      "status": "En evaluación",
+      "id": "2-20"
+    },
+    {
+      "name": "Madrid–Lima",
+      "kind": "Avión",
+      "date": "2027-03-01",
+      "origin": "Madrid",
+      "destination": "Lima",
+      "note": "Salida 05:00 indicada",
+      "amount": "",
+      "baggage": "",
+      "transfers": "",
+      "currency": "EUR",
+      "status": "En evaluación",
+      "id": "2-21"
+    }
+  ],
+  "stays": [
+    {
+      "name": "Madrid (09/02)",
+      "option": "",
+      "zone": "Centro / aeropuerto según vuelo",
+      "nights": 1.0,
+      "people": 5.0,
+      "amount": "",
+      "taxes": "",
+      "currency": "EUR",
+      "luggage": "Por consultar",
+      "cancel": "",
+      "status": "En evaluación",
+      "id": "2-37"
+    },
+    {
+      "name": "París (10–13/02)",
+      "option": "",
+      "zone": "Acceso cómodo al transporte",
+      "nights": 3.0,
+      "people": 5.0,
+      "amount": "",
+      "taxes": "",
+      "currency": "EUR",
+      "luggage": "Por consultar",
+      "cancel": "",
+      "status": "En evaluación",
+      "id": "2-38"
+    },
+    {
+      "name": "Roma (14–17/02)",
+      "option": "",
+      "zone": "Acceso a Termini / centro",
+      "nights": 3.0,
+      "people": 5.0,
+      "amount": "",
+      "taxes": "",
+      "currency": "EUR",
+      "luggage": "Por consultar",
+      "cancel": "",
+      "status": "En evaluación",
+      "id": "2-39"
+    },
+    {
+      "name": "Venecia (17–19/02)",
+      "option": "",
+      "zone": "Isla vs Mestre",
+      "nights": 2.0,
+      "people": 5.0,
+      "amount": "",
+      "taxes": "",
+      "currency": "EUR",
+      "luggage": "Por consultar",
+      "cancel": "",
+      "status": "En evaluación",
+      "id": "2-40"
+    },
+    {
+      "name": "Atenas (19–22/02)",
+      "option": "",
+      "zone": "Centro conectado",
+      "nights": 3.0,
+      "people": 5.0,
+      "amount": "",
+      "taxes": "",
+      "currency": "EUR",
+      "luggage": "Por consultar",
+      "cancel": "",
+      "status": "En evaluación",
+      "id": "2-41"
+    },
+    {
+      "name": "El Cairo (22–26/02)",
+      "option": "",
+      "zone": "Zona según visitas",
+      "nights": 4.0,
+      "people": 5.0,
+      "amount": "",
+      "taxes": "",
+      "currency": "EUR",
+      "luggage": "Por consultar",
+      "cancel": "",
+      "status": "En evaluación",
+      "id": "2-42"
+    },
+    {
+      "name": "Madrid (27–01/03)",
+      "option": "",
+      "zone": "Centro / salida nocturna",
+      "nights": 2.0,
+      "people": 5.0,
+      "amount": "",
+      "taxes": "",
+      "currency": "EUR",
+      "luggage": "Por consultar",
+      "cancel": "",
+      "status": "En evaluación",
+      "id": "2-43"
+    }
+  ],
+  "activities": [
+    {
+      "city": "París",
+      "name": "Louvre",
+      "date": "2027-02-10",
+      "time": "Condicional a llegada",
+      "url": "https://www.louvre.fr/en/visit/hours-admission/tickets-and-prices",
+      "note": "Cierra martes; verificar calendario 2027",
+      "amount": "",
+      "currency": "EUR",
+      "people": 5.0,
+      "status": "Pendiente",
+      "consulted": "2026-10-01",
+      "id": "2-58"
+    },
+    {
+      "city": "París",
+      "name": "Disneyland",
+      "date": "2027-02-11",
+      "time": "Día completo",
+      "url": "https://www.disneylandparis.com/",
+      "note": "Precio, horario y disponibilidad por verificar",
+      "amount": "",
+      "currency": "EUR",
+      "people": 5.0,
+      "status": "Pendiente",
+      "consulted": "",
+      "id": "2-59"
+    },
+    {
+      "city": "París",
+      "name": "Versalles",
+      "date": "2027-02-12",
+      "time": "Mañana y parte de tarde",
+      "url": "https://en.chateauversailles.fr/plan-your-visit-group/faq",
+      "note": "Palacio cierra lunes; verificar calendario 2027",
+      "amount": "",
+      "currency": "EUR",
+      "people": 5.0,
+      "status": "Pendiente",
+      "consulted": "2026-10-01",
+      "id": "2-60"
+    },
+    {
+      "city": "París",
+      "name": "Torre Eiffel",
+      "date": "2027-02-12",
+      "time": "Tarde / noche",
+      "url": "https://www.toureiffel.paris/",
+      "note": "Entrada y hora por verificar",
+      "amount": "",
+      "currency": "EUR",
+      "people": 5.0,
+      "status": "Pendiente",
+      "consulted": "",
+      "id": "2-61"
+    },
+    {
+      "city": "París",
+      "name": "Notre Dame",
+      "date": "2027-02-13",
+      "time": "Mañana",
+      "url": "https://www.notredamedeparis.fr/",
+      "note": "Reserva / acceso por verificar",
+      "amount": "",
+      "currency": "EUR",
+      "people": 5.0,
+      "status": "Pendiente",
+      "consulted": "",
+      "id": "2-62"
+    },
+    {
+      "city": "París",
+      "name": "Crear perfume",
+      "date": "2027-02-13",
+      "time": "Opcional si encaja",
+      "url": "",
+      "note": "No cabe con seguridad en el plan actual",
+      "amount": "",
+      "currency": "EUR",
+      "people": 5.0,
+      "status": "Pendiente",
+      "consulted": "",
+      "id": "2-63"
+    },
+    {
+      "city": "Roma",
+      "name": "Coliseo / Foro",
+      "date": "2027-02-15",
+      "time": "Mañana",
+      "url": "https://colosseo.it/",
+      "note": "Entrada por reservar",
+      "amount": "",
+      "currency": "EUR",
+      "people": 5.0,
+      "status": "Pendiente",
+      "consulted": "",
+      "id": "2-64"
+    },
+    {
+      "city": "Roma",
+      "name": "Museos Vaticanos",
+      "date": "2027-02-16",
+      "time": "Mañana",
+      "url": "https://www.museivaticani.va/",
+      "note": "Entrada por reservar",
+      "amount": "",
+      "currency": "EUR",
+      "people": 5.0,
+      "status": "Pendiente",
+      "consulted": "",
+      "id": "2-65"
+    },
+    {
+      "city": "Pisa",
+      "name": "Campo dei Miracoli",
+      "date": "2027-02-17",
+      "time": "Unas horas",
+      "url": "https://www.opapisa.it/",
+      "note": "Torre opcional; consigna pendiente",
+      "amount": "",
+      "currency": "EUR",
+      "people": 5.0,
+      "status": "Pendiente",
+      "consulted": "",
+      "id": "2-66"
+    },
+    {
+      "city": "Venecia",
+      "name": "San Marcos / canales",
+      "date": "2027-02-18",
+      "time": "Día",
+      "url": "https://www.visitvenezia.eu/",
+      "note": "Revisar requisitos de acceso en 2027",
+      "amount": "",
+      "currency": "EUR",
+      "people": 5.0,
+      "status": "Pendiente",
+      "consulted": "",
+      "id": "2-67"
+    },
+    {
+      "city": "Atenas",
+      "name": "Acrópolis",
+      "date": "2027-02-20",
+      "time": "Mañana",
+      "url": "",
+      "note": "Entrada y franja por reservar",
+      "amount": "",
+      "currency": "EUR",
+      "people": 5.0,
+      "status": "Pendiente",
+      "consulted": "",
+      "id": "2-68"
+    },
+    {
+      "city": "El Cairo",
+      "name": "Guiza",
+      "date": "2027-02-24",
+      "time": "Mañana",
+      "url": "",
+      "note": "Traslado y entradas por investigar",
+      "amount": "",
+      "currency": "EUR",
+      "people": 5.0,
+      "status": "Pendiente",
+      "consulted": "",
+      "id": "2-69"
+    }
+  ],
+  "maps": [
+    {
+      "name": "París centro",
+      "origin": "Musee du Louvre Paris",
+      "destination": "Notre Dame Paris",
+      "mode": "A pie",
+      "stops": "Jardin des Tuileries Paris",
+      "url": "https://www.google.com/maps/dir/?api=1&origin=Musee%20du%20Louvre%20Paris&destination=Notre%20Dame%20Paris&travelmode=walking&waypoints=Jardin%20des%20Tuileries%20Paris",
+      "saved": "",
+      "note": "Ruta orientativa",
+      "id": "2-81"
+    },
+    {
+      "name": "París Eiffel",
+      "origin": "Tour Eiffel Paris",
+      "destination": "Trocadero Paris",
+      "mode": "A pie",
+      "stops": "",
+      "url": "https://www.google.com/maps/dir/?api=1&origin=Tour%20Eiffel%20Paris&destination=Trocadero%20Paris&travelmode=walking",
+      "saved": "",
+      "note": "Ruta orientativa",
+      "id": "2-82"
+    },
+    {
+      "name": "Versalles",
+      "origin": "Paris France",
+      "destination": "Palace of Versailles France",
+      "mode": "Transporte público",
+      "stops": "",
+      "url": "https://www.google.com/maps/dir/?api=1&origin=Paris%20France&destination=Palace%20of%20Versailles%20France&travelmode=transit",
+      "saved": "",
+      "note": "Ruta orientativa",
+      "id": "2-83"
+    },
+    {
+      "name": "Roma histórico",
+      "origin": "Colosseum Rome",
+      "destination": "Trevi Fountain Rome",
+      "mode": "A pie",
+      "stops": "Pantheon Rome",
+      "url": "https://www.google.com/maps/dir/?api=1&origin=Colosseum%20Rome&destination=Trevi%20Fountain%20Rome&travelmode=walking&waypoints=Pantheon%20Rome",
+      "saved": "",
+      "note": "Ruta orientativa",
+      "id": "2-84"
+    },
+    {
+      "name": "Pisa",
+      "origin": "Pisa Centrale Italy",
+      "destination": "Leaning Tower of Pisa Italy",
+      "mode": "A pie",
+      "stops": "",
+      "url": "https://www.google.com/maps/dir/?api=1&origin=Pisa%20Centrale%20Italy&destination=Leaning%20Tower%20of%20Pisa%20Italy&travelmode=walking",
+      "saved": "",
+      "note": "Ruta orientativa",
+      "id": "2-85"
+    },
+    {
+      "name": "Venecia",
+      "origin": "Venezia Santa Lucia Italy",
+      "destination": "Piazza San Marco Venice",
+      "mode": "A pie",
+      "stops": "Rialto Bridge Venice",
+      "url": "https://www.google.com/maps/dir/?api=1&origin=Venezia%20Santa%20Lucia%20Italy&destination=Piazza%20San%20Marco%20Venice&travelmode=walking&waypoints=Rialto%20Bridge%20Venice",
+      "saved": "",
+      "note": "Ruta orientativa",
+      "id": "2-86"
+    },
+    {
+      "name": "Atenas",
+      "origin": "Acropolis Athens",
+      "destination": "Monastiraki Athens",
+      "mode": "A pie",
+      "stops": "Plaka Athens",
+      "url": "https://www.google.com/maps/dir/?api=1&origin=Acropolis%20Athens&destination=Monastiraki%20Athens&travelmode=walking&waypoints=Plaka%20Athens",
+      "saved": "",
+      "note": "Ruta orientativa",
+      "id": "2-87"
+    },
+    {
+      "name": "El Cairo / Guiza",
+      "origin": "Cairo Egypt",
+      "destination": "Giza Pyramids Egypt",
+      "mode": "Coche",
+      "stops": "",
+      "url": "https://www.google.com/maps/dir/?api=1&origin=Cairo%20Egypt&destination=Giza%20Pyramids%20Egypt&travelmode=driving",
+      "saved": "",
+      "note": "Ruta orientativa",
+      "id": "2-88"
+    },
+    {
+      "name": "Madrid",
+      "origin": "Puerta del Sol Madrid",
+      "destination": "Plaza Mayor Madrid",
+      "mode": "A pie",
+      "stops": "",
+      "url": "https://www.google.com/maps/dir/?api=1&origin=Puerta%20del%20Sol%20Madrid&destination=Plaza%20Mayor%20Madrid&travelmode=walking",
+      "saved": "",
+      "note": "Ruta orientativa",
+      "id": "2-89"
+    }
+  ],
+  "tasks": [
+    {
+      "category": "Documentación",
+      "name": "Completar datos de los cinco pasaportes",
+      "owner": "Grupo",
+      "priority": "Alta",
+      "date": "2026-11-08",
+      "period": "3 meses antes",
+      "note": "Requisitos por verificar",
+      "status": "Pendiente",
+      "id": "4-12"
+    },
+    {
+      "category": "Reservas",
+      "name": "Resolver conexión bus Milán–tren Roma",
+      "owner": "Grupo",
+      "priority": "Alta",
+      "date": "2026-12-08",
+      "period": "2 meses antes",
+      "note": "Comprobar horarios reales",
+      "status": "Pendiente",
+      "id": "4-13"
+    },
+    {
+      "category": "Reservas",
+      "name": "Resolver Venecia–Milán–Atenas",
+      "owner": "Grupo",
+      "priority": "Alta",
+      "date": "2026-12-08",
+      "period": "2 meses antes",
+      "note": "Alternativa vuelo desde Venecia",
+      "status": "Pendiente",
+      "id": "4-14"
+    },
+    {
+      "category": "Reservas",
+      "name": "Reservar vuelo El Cairo–Madrid",
+      "owner": "Grupo",
+      "priority": "Alta",
+      "date": "2026-12-08",
+      "period": "2 meses antes",
+      "note": "Llegar temprano el 27",
+      "status": "Pendiente",
+      "id": "4-15"
+    },
+    {
+      "category": "Reservas",
+      "name": "Confirmar alojamiento para cinco plazas",
+      "owner": "Grupo",
+      "priority": "Alta",
+      "date": "2026-12-08",
+      "period": "2 meses antes",
+      "note": "Distribución de habitaciones",
+      "status": "Pendiente",
+      "id": "4-16"
+    },
+    {
+      "category": "Actividades",
+      "name": "Elegir Louvre o perfume si no hay tiempo",
+      "owner": "Grupo",
+      "priority": "Media",
+      "date": "2027-01-08",
+      "period": "1 mes antes",
+      "note": "Revisar llegada del 10",
+      "status": "Pendiente",
+      "id": "4-17"
+    },
+    {
+      "category": "Seguro",
+      "name": "Comparar y contratar pólizas",
+      "owner": "Grupo",
+      "priority": "Alta",
+      "date": "2027-01-08",
+      "period": "1 mes antes",
+      "note": "Cobertura y exclusiones",
+      "status": "Pendiente",
+      "id": "4-18"
+    },
+    {
+      "category": "Equipaje",
+      "name": "Verificar dimensiones en cada operador",
+      "owner": "V1",
+      "priority": "Alta",
+      "date": "2027-01-08",
+      "period": "1 mes antes",
+      "note": "Cabina / bodega",
+      "status": "Pendiente",
+      "id": "4-19"
+    },
+    {
+      "category": "Logística",
+      "name": "Consultar consigna en Pisa",
+      "owner": "Grupo",
+      "priority": "Media",
+      "date": "2027-02-01",
+      "period": "1 semana antes",
+      "note": "Equipaje durante visita",
+      "status": "Pendiente",
+      "id": "4-20"
+    },
+    {
+      "category": "Logística",
+      "name": "Plan de aeropuerto Madrid noche del 28",
+      "owner": "Grupo",
+      "priority": "Alta",
+      "date": "2027-02-01",
+      "period": "1 semana antes",
+      "note": "Salida 05:00 del 01/03",
+      "status": "Pendiente",
+      "id": "4-21"
+    },
+    {
+      "category": "Casa",
+      "name": "Organizar recibos, llaves y encargos",
+      "owner": "V1",
+      "priority": "Media",
+      "date": "2027-02-01",
+      "period": "1 semana antes",
+      "note": "",
+      "status": "Pendiente",
+      "id": "4-22"
+    },
+    {
+      "category": "Conectividad",
+      "name": "Preparar SIM / eSIM y copias sin conexión",
+      "owner": "Grupo",
+      "priority": "Media",
+      "date": "2027-02-01",
+      "period": "1 semana antes",
+      "note": "",
+      "status": "Pendiente",
+      "id": "4-23"
+    },
+    {
+      "category": "Documentación",
+      "name": "Guardar comprobantes y contactos offline",
+      "owner": "Grupo",
+      "priority": "Alta",
+      "date": "2027-02-07",
+      "period": "Día anterior",
+      "note": "",
+      "status": "Pendiente",
+      "id": "4-24"
+    },
+    {
+      "category": "Equipaje",
+      "name": "Revisar peso, baterías y líquidos",
+      "owner": "Cada viajero",
+      "priority": "Alta",
+      "date": "2027-02-07",
+      "period": "Día anterior",
+      "note": "Según política del operador",
+      "status": "Pendiente",
+      "id": "4-25"
+    }
+  ],
+  "shopping": [
+    {
+      "name": "Adaptador de viaje",
+      "kind": "Accesorio",
+      "qty": "",
+      "owner": "Cada viajero",
+      "amount": "",
+      "currency": "EUR",
+      "done": "No",
+      "note": "Verificar compatibilidad",
+      "id": "4-46"
+    },
+    {
+      "name": "Organizador de equipaje",
+      "kind": "Accesorio",
+      "qty": "",
+      "owner": "Cada viajero",
+      "amount": "",
+      "currency": "EUR",
+      "done": "No",
+      "note": "",
+      "id": "4-47"
+    },
+    {
+      "name": "Capa térmica / abrigo",
+      "kind": "Ropa",
+      "qty": "",
+      "owner": "Cada viajero",
+      "amount": "",
+      "currency": "EUR",
+      "done": "No",
+      "note": "Según ropa disponible",
+      "id": "4-48"
+    },
+    {
+      "name": "Conectividad",
+      "kind": "SIM / eSIM",
+      "qty": "",
+      "owner": "Grupo",
+      "amount": "",
+      "currency": "EUR",
+      "done": "No",
+      "note": "Comparar cobertura",
+      "id": "4-49"
+    }
+  ],
+  "packing": [
+    {
+      "category": "Documentos / tecnología",
+      "name": "Pasaporte",
+      "qty": "",
+      "v1": "No",
+      "v2": "No",
+      "v3": "No",
+      "v4": "No",
+      "v5": "No",
+      "note": "",
+      "id": "4-65"
+    },
+    {
+      "category": "Documentos / tecnología",
+      "name": "Billetes y reservas offline",
+      "qty": "",
+      "v1": "No",
+      "v2": "No",
+      "v3": "No",
+      "v4": "No",
+      "v5": "No",
+      "note": "",
+      "id": "4-66"
+    },
+    {
+      "category": "Documentos / tecnología",
+      "name": "Seguro y contactos",
+      "qty": "",
+      "v1": "No",
+      "v2": "No",
+      "v3": "No",
+      "v4": "No",
+      "v5": "No",
+      "note": "",
+      "id": "4-67"
+    },
+    {
+      "category": "Documentos / tecnología",
+      "name": "Tarjetas / efectivo",
+      "qty": "",
+      "v1": "No",
+      "v2": "No",
+      "v3": "No",
+      "v4": "No",
+      "v5": "No",
+      "note": "",
+      "id": "4-68"
+    },
+    {
+      "category": "Documentos / tecnología",
+      "name": "Teléfono y cargador",
+      "qty": "",
+      "v1": "No",
+      "v2": "No",
+      "v3": "No",
+      "v4": "No",
+      "v5": "No",
+      "note": "",
+      "id": "4-69"
+    },
+    {
+      "category": "Documentos / tecnología",
+      "name": "Adaptador compatible",
+      "qty": "",
+      "v1": "No",
+      "v2": "No",
+      "v3": "No",
+      "v4": "No",
+      "v5": "No",
+      "note": "",
+      "id": "4-70"
+    },
+    {
+      "category": "Documentos / tecnología",
+      "name": "Batería externa",
+      "qty": "",
+      "v1": "No",
+      "v2": "No",
+      "v3": "No",
+      "v4": "No",
+      "v5": "No",
+      "note": "",
+      "id": "4-71"
+    },
+    {
+      "category": "Documentos / tecnología",
+      "name": "Medicamentos personales",
+      "qty": "",
+      "v1": "No",
+      "v2": "No",
+      "v3": "No",
+      "v4": "No",
+      "v5": "No",
+      "note": "",
+      "id": "4-72"
+    },
+    {
+      "category": "Ropa",
+      "name": "Abrigo",
+      "qty": "",
+      "v1": "No",
+      "v2": "No",
+      "v3": "No",
+      "v4": "No",
+      "v5": "No",
+      "note": "",
+      "id": "4-73"
+    },
+    {
+      "category": "Ropa",
+      "name": "Capas térmicas",
+      "qty": "",
+      "v1": "No",
+      "v2": "No",
+      "v3": "No",
+      "v4": "No",
+      "v5": "No",
+      "note": "",
+      "id": "4-74"
+    },
+    {
+      "category": "Ropa",
+      "name": "Ropa interior",
+      "qty": "",
+      "v1": "No",
+      "v2": "No",
+      "v3": "No",
+      "v4": "No",
+      "v5": "No",
+      "note": "",
+      "id": "4-75"
+    },
+    {
+      "category": "Ropa",
+      "name": "Calcetines",
+      "qty": "",
+      "v1": "No",
+      "v2": "No",
+      "v3": "No",
+      "v4": "No",
+      "v5": "No",
+      "note": "",
+      "id": "4-76"
+    },
+    {
+      "category": "Ropa",
+      "name": "Calzado cómodo",
+      "qty": "",
+      "v1": "No",
+      "v2": "No",
+      "v3": "No",
+      "v4": "No",
+      "v5": "No",
+      "note": "",
+      "id": "4-77"
+    },
+    {
+      "category": "Ropa",
+      "name": "Bufanda / gorro",
+      "qty": "",
+      "v1": "No",
+      "v2": "No",
+      "v3": "No",
+      "v4": "No",
+      "v5": "No",
+      "note": "",
+      "id": "4-78"
+    },
+    {
+      "category": "Ropa",
+      "name": "Pijama",
+      "qty": "",
+      "v1": "No",
+      "v2": "No",
+      "v3": "No",
+      "v4": "No",
+      "v5": "No",
+      "note": "",
+      "id": "4-79"
+    },
+    {
+      "category": "Otros",
+      "name": "Neceser",
+      "qty": "",
+      "v1": "No",
+      "v2": "No",
+      "v3": "No",
+      "v4": "No",
+      "v5": "No",
+      "note": "",
+      "id": "4-80"
+    },
+    {
+      "category": "Otros",
+      "name": "Documentos de emergencia",
+      "qty": "",
+      "v1": "No",
+      "v2": "No",
+      "v3": "No",
+      "v4": "No",
+      "v5": "No",
+      "note": "",
+      "id": "4-81"
+    },
+    {
+      "category": "Otros",
+      "name": "Bolsa de ropa usada",
+      "qty": "",
+      "v1": "No",
+      "v2": "No",
+      "v3": "No",
+      "v4": "No",
+      "v5": "No",
+      "note": "",
+      "id": "4-82"
+    },
+    {
+      "category": "Otros",
+      "name": "Botella reutilizable",
+      "qty": "",
+      "v1": "No",
+      "v2": "No",
+      "v3": "No",
+      "v4": "No",
+      "v5": "No",
+      "note": "",
+      "id": "4-83"
+    },
+    {
+      "category": "Otros",
+      "name": "Mochila de día",
+      "qty": "",
+      "v1": "No",
+      "v2": "No",
+      "v3": "No",
+      "v4": "No",
+      "v5": "No",
+      "note": "",
+      "id": "4-84"
+    }
+  ],
+  "contacts": [
+    {
+      "kind": "Seguro",
+      "name": "Asistencia de la póliza",
+      "person": "Grupo",
+      "phone": "",
+      "email": "",
+      "url": "",
+      "reference": "",
+      "note": "Completar cuando se contrate",
+      "id": "5-19"
+    },
+    {
+      "kind": "Alojamiento",
+      "name": "Hotel Madrid",
+      "person": "Grupo",
+      "phone": "",
+      "email": "",
+      "url": "",
+      "reference": "",
+      "note": "",
+      "id": "5-20"
+    },
+    {
+      "kind": "Alojamiento",
+      "name": "Hotel París",
+      "person": "Grupo",
+      "phone": "",
+      "email": "",
+      "url": "",
+      "reference": "",
+      "note": "",
+      "id": "5-21"
+    },
+    {
+      "kind": "Alojamiento",
+      "name": "Hotel Roma",
+      "person": "Grupo",
+      "phone": "",
+      "email": "",
+      "url": "",
+      "reference": "",
+      "note": "",
+      "id": "5-22"
+    },
+    {
+      "kind": "Alojamiento",
+      "name": "Hotel Venecia",
+      "person": "Grupo",
+      "phone": "",
+      "email": "",
+      "url": "",
+      "reference": "",
+      "note": "",
+      "id": "5-23"
+    },
+    {
+      "kind": "Alojamiento",
+      "name": "Hotel Atenas",
+      "person": "Grupo",
+      "phone": "",
+      "email": "",
+      "url": "",
+      "reference": "",
+      "note": "",
+      "id": "5-24"
+    },
+    {
+      "kind": "Alojamiento",
+      "name": "Hotel El Cairo",
+      "person": "Grupo",
+      "phone": "",
+      "email": "",
+      "url": "",
+      "reference": "",
+      "note": "",
+      "id": "5-25"
+    },
+    {
+      "kind": "Emergencia",
+      "name": "",
+      "person": "V1",
+      "phone": "",
+      "email": "",
+      "url": "",
+      "reference": "",
+      "note": "",
+      "id": "5-26"
+    },
+    {
+      "kind": "Emergencia",
+      "name": "",
+      "person": "V2",
+      "phone": "",
+      "email": "",
+      "url": "",
+      "reference": "",
+      "note": "",
+      "id": "5-27"
+    },
+    {
+      "kind": "Emergencia",
+      "name": "",
+      "person": "V3",
+      "phone": "",
+      "email": "",
+      "url": "",
+      "reference": "",
+      "note": "",
+      "id": "5-28"
+    },
+    {
+      "kind": "Emergencia",
+      "name": "",
+      "person": "V4",
+      "phone": "",
+      "email": "",
+      "url": "",
+      "reference": "",
+      "note": "",
+      "id": "5-29"
+    },
+    {
+      "kind": "Emergencia",
+      "name": "",
+      "person": "V5",
+      "phone": "",
+      "email": "",
+      "url": "",
+      "reference": "",
+      "note": "",
+      "id": "5-30"
+    }
+  ],
+  "journal": [
+    {
+      "date": "2027-02-08",
+      "city": "Lima / vuelo",
+      "person": "Grupo",
+      "best": "",
+      "story": "",
+      "food": "",
+      "url": "",
+      "next": "",
+      "id": "5-41"
+    },
+    {
+      "date": "2027-02-09",
+      "city": "Madrid",
+      "person": "Grupo",
+      "best": "",
+      "story": "",
+      "food": "",
+      "url": "",
+      "next": "",
+      "id": "5-42"
+    },
+    {
+      "date": "2027-02-10",
+      "city": "Madrid → París",
+      "person": "Grupo",
+      "best": "",
+      "story": "",
+      "food": "",
+      "url": "",
+      "next": "",
+      "id": "5-43"
+    },
+    {
+      "date": "2027-02-11",
+      "city": "París",
+      "person": "Grupo",
+      "best": "",
+      "story": "",
+      "food": "",
+      "url": "",
+      "next": "",
+      "id": "5-44"
+    },
+    {
+      "date": "2027-02-12",
+      "city": "París",
+      "person": "Grupo",
+      "best": "",
+      "story": "",
+      "food": "",
+      "url": "",
+      "next": "",
+      "id": "5-45"
+    },
+    {
+      "date": "2027-02-13",
+      "city": "París → Milán",
+      "person": "Grupo",
+      "best": "",
+      "story": "",
+      "food": "",
+      "url": "",
+      "next": "",
+      "id": "5-46"
+    },
+    {
+      "date": "2027-02-14",
+      "city": "Milán → Roma",
+      "person": "Grupo",
+      "best": "",
+      "story": "",
+      "food": "",
+      "url": "",
+      "next": "",
+      "id": "5-47"
+    },
+    {
+      "date": "2027-02-15",
+      "city": "Roma",
+      "person": "Grupo",
+      "best": "",
+      "story": "",
+      "food": "",
+      "url": "",
+      "next": "",
+      "id": "5-48"
+    },
+    {
+      "date": "2027-02-16",
+      "city": "Roma",
+      "person": "Grupo",
+      "best": "",
+      "story": "",
+      "food": "",
+      "url": "",
+      "next": "",
+      "id": "5-49"
+    },
+    {
+      "date": "2027-02-17",
+      "city": "Roma → Pisa → Venecia",
+      "person": "Grupo",
+      "best": "",
+      "story": "",
+      "food": "",
+      "url": "",
+      "next": "",
+      "id": "5-50"
+    },
+    {
+      "date": "2027-02-18",
+      "city": "Venecia",
+      "person": "Grupo",
+      "best": "",
+      "story": "",
+      "food": "",
+      "url": "",
+      "next": "",
+      "id": "5-51"
+    },
+    {
+      "date": "2027-02-19",
+      "city": "Venecia → Milán → Atenas",
+      "person": "Grupo",
+      "best": "",
+      "story": "",
+      "food": "",
+      "url": "",
+      "next": "",
+      "id": "5-52"
+    },
+    {
+      "date": "2027-02-20",
+      "city": "Atenas",
+      "person": "Grupo",
+      "best": "",
+      "story": "",
+      "food": "",
+      "url": "",
+      "next": "",
+      "id": "5-53"
+    },
+    {
+      "date": "2027-02-21",
+      "city": "Atenas",
+      "person": "Grupo",
+      "best": "",
+      "story": "",
+      "food": "",
+      "url": "",
+      "next": "",
+      "id": "5-54"
+    },
+    {
+      "date": "2027-02-22",
+      "city": "Atenas → El Cairo",
+      "person": "Grupo",
+      "best": "",
+      "story": "",
+      "food": "",
+      "url": "",
+      "next": "",
+      "id": "5-55"
+    },
+    {
+      "date": "2027-02-23",
+      "city": "El Cairo",
+      "person": "Grupo",
+      "best": "",
+      "story": "",
+      "food": "",
+      "url": "",
+      "next": "",
+      "id": "5-56"
+    },
+    {
+      "date": "2027-02-24",
+      "city": "El Cairo",
+      "person": "Grupo",
+      "best": "",
+      "story": "",
+      "food": "",
+      "url": "",
+      "next": "",
+      "id": "5-57"
+    },
+    {
+      "date": "2027-02-25",
+      "city": "El Cairo",
+      "person": "Grupo",
+      "best": "",
+      "story": "",
+      "food": "",
+      "url": "",
+      "next": "",
+      "id": "5-58"
+    },
+    {
+      "date": "2027-02-26",
+      "city": "El Cairo → Madrid",
+      "person": "Grupo",
+      "best": "",
+      "story": "",
+      "food": "",
+      "url": "",
+      "next": "",
+      "id": "5-59"
+    },
+    {
+      "date": "2027-02-27",
+      "city": "Madrid",
+      "person": "Grupo",
+      "best": "",
+      "story": "",
+      "food": "",
+      "url": "",
+      "next": "",
+      "id": "5-60"
+    },
+    {
+      "date": "2027-02-28",
+      "city": "Madrid",
+      "person": "Grupo",
+      "best": "",
+      "story": "",
+      "food": "",
+      "url": "",
+      "next": "",
+      "id": "5-61"
+    },
+    {
+      "date": "2027-03-01",
+      "city": "Madrid → Lima",
+      "person": "Grupo",
+      "best": "",
+      "story": "",
+      "food": "",
+      "url": "",
+      "next": "",
+      "id": "5-62"
+    }
+  ],
+  "outfits": [
+    {
+      "date": "2027-02-08",
+      "city": "Lima / vuelo",
+      "v1": "",
+      "v2": "",
+      "v3": "",
+      "v4": "",
+      "v5": "",
+      "weather": "",
+      "laundry": "",
+      "note": "",
+      "id": "5-67"
+    },
+    {
+      "date": "2027-02-09",
+      "city": "Madrid",
+      "v1": "",
+      "v2": "",
+      "v3": "",
+      "v4": "",
+      "v5": "",
+      "weather": "",
+      "laundry": "",
+      "note": "",
+      "id": "5-68"
+    },
+    {
+      "date": "2027-02-10",
+      "city": "Madrid → París",
+      "v1": "",
+      "v2": "",
+      "v3": "",
+      "v4": "",
+      "v5": "",
+      "weather": "",
+      "laundry": "",
+      "note": "",
+      "id": "5-69"
+    },
+    {
+      "date": "2027-02-11",
+      "city": "París",
+      "v1": "",
+      "v2": "",
+      "v3": "",
+      "v4": "",
+      "v5": "",
+      "weather": "",
+      "laundry": "",
+      "note": "",
+      "id": "5-70"
+    },
+    {
+      "date": "2027-02-12",
+      "city": "París",
+      "v1": "",
+      "v2": "",
+      "v3": "",
+      "v4": "",
+      "v5": "",
+      "weather": "",
+      "laundry": "",
+      "note": "",
+      "id": "5-71"
+    },
+    {
+      "date": "2027-02-13",
+      "city": "París → Milán",
+      "v1": "",
+      "v2": "",
+      "v3": "",
+      "v4": "",
+      "v5": "",
+      "weather": "",
+      "laundry": "",
+      "note": "",
+      "id": "5-72"
+    },
+    {
+      "date": "2027-02-14",
+      "city": "Milán → Roma",
+      "v1": "",
+      "v2": "",
+      "v3": "",
+      "v4": "",
+      "v5": "",
+      "weather": "",
+      "laundry": "",
+      "note": "",
+      "id": "5-73"
+    },
+    {
+      "date": "2027-02-15",
+      "city": "Roma",
+      "v1": "",
+      "v2": "",
+      "v3": "",
+      "v4": "",
+      "v5": "",
+      "weather": "",
+      "laundry": "",
+      "note": "",
+      "id": "5-74"
+    },
+    {
+      "date": "2027-02-16",
+      "city": "Roma",
+      "v1": "",
+      "v2": "",
+      "v3": "",
+      "v4": "",
+      "v5": "",
+      "weather": "",
+      "laundry": "",
+      "note": "",
+      "id": "5-75"
+    },
+    {
+      "date": "2027-02-17",
+      "city": "Roma → Pisa → Venecia",
+      "v1": "",
+      "v2": "",
+      "v3": "",
+      "v4": "",
+      "v5": "",
+      "weather": "",
+      "laundry": "",
+      "note": "",
+      "id": "5-76"
+    },
+    {
+      "date": "2027-02-18",
+      "city": "Venecia",
+      "v1": "",
+      "v2": "",
+      "v3": "",
+      "v4": "",
+      "v5": "",
+      "weather": "",
+      "laundry": "",
+      "note": "",
+      "id": "5-77"
+    },
+    {
+      "date": "2027-02-19",
+      "city": "Venecia → Milán → Atenas",
+      "v1": "",
+      "v2": "",
+      "v3": "",
+      "v4": "",
+      "v5": "",
+      "weather": "",
+      "laundry": "",
+      "note": "",
+      "id": "5-78"
+    },
+    {
+      "date": "2027-02-20",
+      "city": "Atenas",
+      "v1": "",
+      "v2": "",
+      "v3": "",
+      "v4": "",
+      "v5": "",
+      "weather": "",
+      "laundry": "",
+      "note": "",
+      "id": "5-79"
+    },
+    {
+      "date": "2027-02-21",
+      "city": "Atenas",
+      "v1": "",
+      "v2": "",
+      "v3": "",
+      "v4": "",
+      "v5": "",
+      "weather": "",
+      "laundry": "",
+      "note": "",
+      "id": "5-80"
+    },
+    {
+      "date": "2027-02-22",
+      "city": "Atenas → El Cairo",
+      "v1": "",
+      "v2": "",
+      "v3": "",
+      "v4": "",
+      "v5": "",
+      "weather": "",
+      "laundry": "",
+      "note": "",
+      "id": "5-81"
+    },
+    {
+      "date": "2027-02-23",
+      "city": "El Cairo",
+      "v1": "",
+      "v2": "",
+      "v3": "",
+      "v4": "",
+      "v5": "",
+      "weather": "",
+      "laundry": "",
+      "note": "",
+      "id": "5-82"
+    },
+    {
+      "date": "2027-02-24",
+      "city": "El Cairo",
+      "v1": "",
+      "v2": "",
+      "v3": "",
+      "v4": "",
+      "v5": "",
+      "weather": "",
+      "laundry": "",
+      "note": "",
+      "id": "5-83"
+    },
+    {
+      "date": "2027-02-25",
+      "city": "El Cairo",
+      "v1": "",
+      "v2": "",
+      "v3": "",
+      "v4": "",
+      "v5": "",
+      "weather": "",
+      "laundry": "",
+      "note": "",
+      "id": "5-84"
+    },
+    {
+      "date": "2027-02-26",
+      "city": "El Cairo → Madrid",
+      "v1": "",
+      "v2": "",
+      "v3": "",
+      "v4": "",
+      "v5": "",
+      "weather": "",
+      "laundry": "",
+      "note": "",
+      "id": "5-85"
+    },
+    {
+      "date": "2027-02-27",
+      "city": "Madrid",
+      "v1": "",
+      "v2": "",
+      "v3": "",
+      "v4": "",
+      "v5": "",
+      "weather": "",
+      "laundry": "",
+      "note": "",
+      "id": "5-86"
+    },
+    {
+      "date": "2027-02-28",
+      "city": "Madrid",
+      "v1": "",
+      "v2": "",
+      "v3": "",
+      "v4": "",
+      "v5": "",
+      "weather": "",
+      "laundry": "",
+      "note": "",
+      "id": "5-87"
+    },
+    {
+      "date": "2027-03-01",
+      "city": "Madrid → Lima",
+      "v1": "",
+      "v2": "",
+      "v3": "",
+      "v4": "",
+      "v5": "",
+      "weather": "",
+      "laundry": "",
+      "note": "",
+      "id": "5-88"
+    }
+  ],
+  "budget": [
+    {
+      "id": "cat0",
+      "name": "Vuelos internacionales",
+      "amount": ""
+    },
+    {
+      "id": "cat1",
+      "name": "Transporte entre ciudades",
+      "amount": ""
+    },
+    {
+      "id": "cat2",
+      "name": "Transporte urbano",
+      "amount": ""
+    },
+    {
+      "id": "cat3",
+      "name": "Alojamiento",
+      "amount": ""
+    },
+    {
+      "id": "cat4",
+      "name": "Alimentación",
+      "amount": ""
+    },
+    {
+      "id": "cat5",
+      "name": "Entradas y actividades",
+      "amount": ""
+    },
+    {
+      "id": "cat6",
+      "name": "Equipaje y extras",
+      "amount": ""
+    },
+    {
+      "id": "cat7",
+      "name": "Seguros",
+      "amount": ""
+    },
+    {
+      "id": "cat8",
+      "name": "Tasas e imprevistos",
+      "amount": ""
+    }
+  ],
+  "fx": [
+    {
+      "id": "EUR",
+      "name": "EUR",
+      "rate": 1,
+      "date": "",
+      "url": ""
+    },
+    {
+      "id": "PEN",
+      "name": "PEN",
+      "rate": "",
+      "date": "",
+      "url": ""
+    },
+    {
+      "id": "USD",
+      "name": "USD",
+      "rate": "",
+      "date": "",
+      "url": ""
+    },
+    {
+      "id": "EGP",
+      "name": "EGP",
+      "rate": "",
+      "date": "",
+      "url": ""
+    }
+  ],
+  "savings": [
+    {
+      "id": "V1",
+      "name": "Viajero 1",
+      "amount": "",
+      "date": "2027-02-08"
+    },
+    {
+      "id": "V2",
+      "name": "Viajero 2",
+      "amount": "",
+      "date": "2027-02-08"
+    },
+    {
+      "id": "V3",
+      "name": "Viajero 3",
+      "amount": "",
+      "date": "2027-02-08"
+    },
+    {
+      "id": "V4",
+      "name": "Viajero 4",
+      "amount": "",
+      "date": "2027-02-08"
+    },
+    {
+      "id": "V5",
+      "name": "Viajero 5",
+      "amount": "",
+      "date": "2027-02-08"
+    }
+  ],
+  "expenses": [],
+  "documents": [],
+  "destinations": [
+    {
+      "id": "madrid",
+      "name": "Madrid",
+      "country": "España",
+      "photo": "madrid.jpg",
+      "dates": "9 feb · 27–28 feb",
+      "note": "Llegada y salida del viaje"
+    },
+    {
+      "id": "paris",
+      "name": "París",
+      "country": "Francia",
+      "photo": "paris.jpg",
+      "dates": "10–13 feb",
+      "note": "Sena, Disney y Versalles"
+    },
+    {
+      "id": "rome",
+      "name": "Roma",
+      "country": "Italia",
+      "photo": "rome.jpg",
+      "dates": "14–16 feb",
+      "note": "Tres días de historia y paseos"
+    },
+    {
+      "id": "pisa",
+      "name": "Pisa",
+      "country": "Italia",
+      "photo": "pisa.jpg",
+      "dates": "17 feb",
+      "note": "Parada de unas horas; consigna pendiente"
+    },
+    {
+      "id": "venice",
+      "name": "Venecia",
+      "country": "Italia",
+      "photo": "venice.jpg",
+      "dates": "17–18 feb",
+      "note": "Canales, Rialto y San Marcos"
+    },
+    {
+      "id": "athens",
+      "name": "Atenas",
+      "country": "Grecia",
+      "photo": "athens.jpg",
+      "dates": "19–21 feb",
+      "note": "Conexión de llegada por resolver"
+    },
+    {
+      "id": "cairo",
+      "name": "El Cairo",
+      "country": "Egipto",
+      "photo": "cairo.jpg",
+      "dates": "22–26 feb",
+      "note": "Guiza, museos y regreso a Madrid"
+    }
+  ],
+  "tips": [
+    {
+      "id": "0",
+      "name": "España",
+      "currency": "EUR",
+      "language": "Español",
+      "phrase": "Hola / gracias",
+      "note": "Salida de Madrid 01/03 05:00; traslado durante la noche"
+    },
+    {
+      "id": "1",
+      "name": "Francia",
+      "currency": "EUR",
+      "language": "Francés",
+      "phrase": "Bonjour / merci",
+      "note": "Louvre y perfume dependen de tiempo disponible"
+    },
+    {
+      "id": "2",
+      "name": "Italia",
+      "currency": "EUR",
+      "language": "Italiano",
+      "phrase": "Buongiorno / grazie",
+      "note": "Validar Milán–Roma tras el bus; consigna en Pisa"
+    },
+    {
+      "id": "3",
+      "name": "Grecia",
+      "currency": "EUR",
+      "language": "Griego",
+      "phrase": "Kaliméra / efcharistó",
+      "note": "Llegada matinal vía Milán sin validar"
+    },
+    {
+      "id": "4",
+      "name": "Egipto",
+      "currency": "EGP",
+      "language": "Árabe",
+      "phrase": "Salam / shukran",
+      "note": "Requisitos de entrada según pasaporte; regreso a Madrid por confirmar"
+    }
+  ]
+}

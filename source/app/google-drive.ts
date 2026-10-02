@@ -1,5 +1,5 @@
 import initial from './trip.json';
-export type GoogleConfig={clientId:string,apiKey:string,projectNumber:string,fileId?:string};
+export type GoogleConfig={clientId:string,apiKey:string,projectNumber:string,fileId?:string,publicFileId?:string};
 export class DriveError extends Error {constructor(message:string,public code=0){super(message)}}
 export function validatePlan(state:any){
  if(!state||!Object.keys(initial).every(k=>Array.isArray(state[k]))||state.travelers.length!==5||state.days.length!==22||state.days.some((d:any)=>!d.date||!Array.isArray(d.blocks)))throw new DriveError('Este archivo no corresponde al planificador de cinco viajeros.');
@@ -45,6 +45,25 @@ export class DriveStore {
   if(!updated.etag){this.canEdit=false;throw new DriveError('Drive recibió la petición, pero no confirmó la versión. Exporta tu edición y vuelve a cargar para comprobar el resultado.');}
   this.etag=updated.etag;this.revision++;return {revision:this.revision};
  }
+ async publish(state:any,existingId=''){
+  if(!this.fileId||!this.canEdit)throw new DriveError('Abre tu viaje con permiso de edición.');
+  const payload=JSON.stringify({format:'viaje-publico-v1',state:publicPlan(state),updatedAt:new Date().toISOString()});
+  let id=existingId;
+  if(id){
+   const meta=await this.api('https://www.googleapis.com/drive/v3/files/'+encodeURIComponent(id)+'?fields=appProperties');
+   if(meta.appProperties?.sourceTrip!==this.fileId)throw new DriveError('La copia pública no corresponde a este viaje.');
+   await this.api('https://www.googleapis.com/upload/drive/v3/files/'+encodeURIComponent(id)+'?uploadType=media',{method:'PATCH',headers:{'Content-Type':'application/json'},body:payload});
+  }else{
+   const boundary='public_'+crypto.randomUUID().replaceAll('-','');
+   const metadata={name:'Itinerario público · Europa y Egipto 2027.json',mimeType:'application/json',appProperties:{sourceTrip:this.fileId}};
+   const body='--'+boundary+'\r\nContent-Type: application/json\r\n\r\n'+JSON.stringify(metadata)+'\r\n--'+boundary+'\r\nContent-Type: application/json\r\n\r\n'+payload+'\r\n--'+boundary+'--';
+   const result=await this.api('https://www.googleapis.com/upload/drive/v3/files?uploadType=multipart&fields=id',{method:'POST',headers:{'Content-Type':'multipart/related; boundary='+boundary},body});id=result.id;
+  }
+  const permissions=await this.api('https://www.googleapis.com/drive/v3/files/'+encodeURIComponent(id)+'/permissions?fields=permissions(id,type,role)');
+  if(!permissions.permissions?.some((p:any)=>p.type==='anyone'&&p.role==='reader'))await this.api('https://www.googleapis.com/drive/v3/files/'+encodeURIComponent(id)+'/permissions',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({type:'anyone',role:'reader',allowFileDiscovery:false})});
+  return id;
+ }
+
  async create(state:any){
   validatePlan(state);const boundary='viaje_'+crypto.randomUUID().replaceAll('-','');
   const body='--'+boundary+'\r\nContent-Type: application/json; charset=UTF-8\r\n\r\n'+JSON.stringify({title:'Nuestro viaje · Europa y Egipto 2027.json',mimeType:'application/json'})+'\r\n--'+boundary+'\r\nContent-Type: application/json\r\n\r\n'+JSON.stringify({format:'viaje-europa-egipto-v1',state,revision:1})+'\r\n--'+boundary+'--';
@@ -71,3 +90,22 @@ export function chooseDriveFile(config:GoogleConfig,token:string){return new Pro
  const g=w().google.picker;const view=new g.DocsView(g.ViewId.DOCS).setMimeTypes('application/json').setMode(g.DocsViewMode.LIST);
  const picker=new g.PickerBuilder().addView(view).setAppId(config.projectNumber).setDeveloperKey(config.apiKey).setOAuthToken(token).setOrigin(location.origin).setTitle('Selecciona el viaje compartido').setCallback((d:any)=>{if(d.action===g.Action.PICKED)resolve(d.docs[0].id);else if(d.action===g.Action.CANCEL)resolve(null)}).build();picker.setVisible(true);
 });}
+
+// Explicit field allowlist: never send the private plan wholesale to public readers.
+export function publicPlan(state:any){
+ validatePlan(state);
+ const out:any=Object.fromEntries(Object.keys(initial).map(k=>[k,[]]));
+ const pick=(x:any,keys:string[])=>Object.fromEntries(keys.filter(k=>x[k]!=null).map(k=>[k,x[k]]));
+ out.travelers=Array.from({length:5},(_,i)=>({id:'public-'+i,code:'V'+(i+1),name:'Viajero '+(i+1)}));
+ out.days=state.days.map((d:any)=>({...pick(d,['id','date','city','main','night','transport','status']),blocks:d.blocks.map((b:any)=>pick(b,['id','start','end','activity','transport','status','url']))}));
+ out.destinations=state.destinations.map((d:any)=>pick(d,['id','name','country','dates','photo']));
+ out.maps=state.maps.map((m:any)=>pick(m,['id','name','origin','destination','mode','stops','saved','url']));
+ return out;
+}
+export async function readPublicPlan(id:string,apiKey:string){
+ if(!/^[\w-]+$/.test(id))throw new Error('El enlace público no es válido.');
+ const r=await globalThis.fetch('https://www.googleapis.com/drive/v3/files/'+encodeURIComponent(id)+'?alt=media&key='+encodeURIComponent(apiKey),{cache:'no-store'});
+ if(!r.ok)throw new Error('No se pudo cargar el itinerario público ('+r.status+'). Comprueba el enlace y su permiso de lectura.');
+ const x=await r.json();if(x.format!=='viaje-publico-v1')throw new Error('Este archivo no es un itinerario público.');
+ return {state:publicPlan(x.state),updatedAt:x.updatedAt};
+}

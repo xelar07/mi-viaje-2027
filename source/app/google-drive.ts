@@ -8,12 +8,12 @@ export function validatePlan(state:any){
 export class DriveStore {
  private token=''; private expires=0; private etag=''; private revision=0;
  fileId=''; title=''; canEdit=false;
- constructor(private request:typeof fetch=fetch){}
+ constructor(private request:typeof fetch=(...args)=>globalThis.fetch(...args)){}
  authorize(token:string,expiresIn=3600){this.token=token;this.expires=Date.now()+Number(expiresIn)*1000-30000;}
  disconnect(){this.token='';this.expires=0;this.etag='';this.canEdit=false;}
  private async api(url:string,options:RequestInit={}):Promise<any>{
   if(!this.token||Date.now()>=this.expires)throw new DriveError('Vuelve a conectar con Google para continuar. Tu edición sigue disponible para exportar.',401);
-  let r:Response;try{r=await this.request(url,{...options,cache:'no-store',headers:{...options.headers,Authorization:'Bearer '+this.token}})}catch{throw new DriveError('No hay conexión con Google Drive. Exporta tu edición o reintenta cuando tengas internet.');}
+  let r:Response;try{r=await this.request(url,{...options,cache:'no-store',headers:{...options.headers,Authorization:'Bearer '+this.token}})}catch(error){const detail=error instanceof Error?error.message:'';throw new DriveError('No se pudo completar la petición a Google Drive.'+(detail?' Detalle: '+detail:'')+' Conserva tu edición con Exportar copia.');}
   if(r.status===412||r.status===409)throw new DriveError('Otro viajero modificó el plan. Exporta tu edición y pulsa Actualizar desde Drive antes de continuar.',409);
   if(r.status===401)throw new DriveError('La sesión de Google venció. Pulsa Conectar con Google de nuevo.',401);
   if(r.status===403)throw new DriveError('Google no permitió esta operación. Comprueba que tienes permiso de Editor y que las APIs están habilitadas.',403);

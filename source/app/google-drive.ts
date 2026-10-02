@@ -91,16 +91,10 @@ export function chooseDriveFile(config:GoogleConfig,token:string){return new Pro
  const picker=new g.PickerBuilder().addView(view).setAppId(config.projectNumber).setDeveloperKey(config.apiKey).setOAuthToken(token).setOrigin(location.origin).setTitle('Selecciona el viaje compartido').setCallback((d:any)=>{if(d.action===g.Action.PICKED)resolve(d.docs[0].id);else if(d.action===g.Action.CANCEL)resolve(null)}).build();picker.setVisible(true);
 });}
 
-// Explicit field allowlist: never send the private plan wholesale to public readers.
+// Publication is explicit: the administrator confirms sharing the full plan.
 export function publicPlan(state:any){
  validatePlan(state);
- const out:any=Object.fromEntries(Object.keys(initial).map(k=>[k,[]]));
- const pick=(x:any,keys:string[])=>Object.fromEntries(keys.filter(k=>x[k]!=null).map(k=>[k,x[k]]));
- out.travelers=Array.from({length:5},(_,i)=>({id:'public-'+i,code:'V'+(i+1),name:'Viajero '+(i+1)}));
- out.days=state.days.map((d:any)=>({...pick(d,['id','date','city','main','night','transport','status']),blocks:d.blocks.map((b:any)=>pick(b,['id','start','end','activity','transport','status','url']))}));
- out.destinations=state.destinations.map((d:any)=>pick(d,['id','name','country','dates','photo']));
- out.maps=state.maps.map((m:any)=>pick(m,['id','name','origin','destination','mode','stops','saved','url']));
- return out;
+ return JSON.parse(JSON.stringify(state));
 }
 export async function readPublicPlan(id:string,apiKey:string){
  if(!/^[\w-]+$/.test(id))throw new Error('El enlace público no es válido.');
